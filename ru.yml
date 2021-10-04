@@ -1,10 +1,10 @@
 ---
-en:
+ru:
   admin:
     welcome:
       index:
-        total_views: Total Views
-        lesson_title: Lesson title
+        total_views: Просмотры
+        lesson_title: Заголовок урока
     paths:
       certificates_tab:
         completed: Completed Lessons
@@ -63,7 +63,7 @@ en:
         create: Create template
     layouts:
       application:
-        workspace: Back to Academy  
+        workspace: Back to Academy
     questions:
       show:
         col:
@@ -87,7 +87,7 @@ en:
         upgrade: Upgrade plan
         quote: Get a quote
         features_included: Features included in all plans
-        alert_premium: Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
+        alert_premium: 'Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.'
         topic1: Private/public academy
         topic2: 'Micro-learning: bite-sized course creator'
         topic3: Public, restricted and hidden courses
@@ -123,10 +123,9 @@ en:
           submit: Save custom domain
           subtext: 'Please enter your custom (sub)domain without http:// or https://. Your domain will automatically be secured by SSL. It may take up to 24 hours for the DNS changes to be reflected.'
         subtitle: Set a custom domain for your space
-        text_html: "Your space will be available on %{url} and the <span class='font-weight-bold'>custom
-          domain</span> you choose here:"
+        text_html: "Your space will be available on %{url} and the <span class='font-weight-bold'>custom domain</span> you choose here:"
         title: Custom Domain
-        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Learn more how to enable a custom domain</a>
+        learn_more_html: '<a href=''https://academy.marbleteams.com/mypaths/102/items/199/advanced''>Learn more how to enable a custom domain</a>'
       language:
         submit: Save language
         label: Language
@@ -154,7 +153,6 @@ en:
           public: public
           subtitle: Get notifications in Slack
           text: When a course is published or an lesson added, MarbleBot will notify
-            your space via Slack.
           title: Notifications
     themes:
       new:
@@ -208,6 +206,8 @@ en:
     messages:
       not_saved:
         one: '1 error prohibited this %{resource} from being saved:'
+        few: ""
+        many: ""
         other: "%{count} errors prohibited this %{resource} from being saved:"
   items:
     edit:
@@ -419,7 +419,6 @@ en:
       schedule_path: Schedule course
       schedule_path_text_1: Courses are generally always available to your space.
       schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
       sending_notification: You will be sending a notification to
       start_date: Start Date
     _new_item_modal:
@@ -436,6 +435,8 @@ en:
       edit_path: Edit Course
       items:
         one: "%{count} Lesson"
+        few: ""
+        many: ""
         other: "%{count} Lessons"
       view_path: View Course
     _path_edit_head:
@@ -452,7 +453,6 @@ en:
       anyone_with_link_text_2: Anyone on the internet can view this course.
       assign_learners: Assign learners
       assign_learners_text: You can assign individual learners who will be able to
-        see the course and are notified about the course.
       change_name: Change Name
       change_timezone: Change your time zone here
       currently_in: You are currently in
@@ -477,7 +477,6 @@ en:
       schedule_path: Schedule a course
       schedule_path_text_1: Courses are generally always available to your space.
       schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
       sending_notification: You will be sending a notification to
       start_date: Start Date
       title_1: Add lesson
@@ -492,7 +491,6 @@ en:
       all_learners: All learners
       assign_users: Assign users
       assign_users_text: You can assign individual users who will be able to see the
-        course and are notified about the course.
       change_timezone: Change your time zone here
       currently_in: You are currently in
       find_learners: Find learners
@@ -511,7 +509,6 @@ en:
       schedule_path: Schedule course
       schedule_path_text_1: Courses are generally always available to your space.
       schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
       sending_notification: You will be sending a notification to
       start_date: Start Date
       title: Configure course
@@ -594,15 +591,15 @@ en:
       position: Enter your position
       title: Settings
   users:
-    profiles:  
+    profiles:
       certificates:
         no_certificate: You don't have any issued certificate yet.
         date_issue: Date of issue
         view_pdf: View as PDF
       items:
-        no_lessons: You don't have lessons available yet.  
+        no_lessons: You don't have lessons available yet.
       paths:
-        no_courses: You don't have courses available yet. 
+        no_courses: You don't have courses available yet.
       show:
         overview: Overview
         progress: Learn Progress
@@ -623,29 +620,24 @@ en:
           password: Password
           password_confirmation: Password Confirmation
         password_text: Your password should be at least 6 characters long (and contain
-          numbers and special characters for extra security).
         placeholder:
           name: Enter your name
           password: Enter a password
           password_confirmation: Enter the password again
         submit_button: Save my password
         subtitle_html: You'll use your email address (<strong>%{email}</strong>) and
-          a password to sign in to your space on Marble.
         title: Join %{tenant}
     mailer:
       invitation_instructions:
         body_html: has invited you to join the space <strong>%{tenant}</strong>. Join
-          now to start learning!
         cta: Join Now
         title: Join %{tenant} on Marble
       reset_password_instructions:
-        body: 'You told us you forgot your password. If you really did, click here
-          to choose a new one:'
+        body: 'You told us you forgot your password. If you really did, click here to choose a new one:'
         cta: Choose a New Password
         hint: "“Choose a New Password” button not working?"
         hint2: 'Just copy and paste this link in your browser:'
         no_reset: If you didn't mean to reset your password, then you can just ignore
-          this email; your password will not change.
         title: Reset your password
     passwords:
       edit:
@@ -653,15 +645,12 @@ en:
           confirm_password: Confirm New Password
           password: New Password
         password_description: Your password should be at least 6 characters long (and
-          contain numbers and special characters for extra security).
         submit_button: Change my password
         subtitle_html: Enter your new password for your Marble account to sign in
-          to <strong>%{tenant}</strong>.
         title: Password Reset
       new:
         reset_link: Get Reset Link
         subtitle_html: To reset your password, enter the email address you use to
-          sign in to <strong>%{tenant}</strong>.
         title: Password Reset
     registrations:
       new:
@@ -747,8 +736,8 @@ en:
     view: View
     views: Views
     date: Date
-    "yes": "Yes"
-    "no": "No"
+    'yes': "Yes"
+    'no': "No"
     min: min
     h: h
     s: s
@@ -763,7 +752,6 @@ en:
     actions: Actions
     dashboard: Dashboard
     role: Role
-    admin: Admin
     admins: Admins
     creator: Creator
     creators: Creators
@@ -776,4 +764,4 @@ en:
     settings: Settings
     billing: Billing
     integration: Integration
-    integrations: Integrations    
+    integrations: Integrations
