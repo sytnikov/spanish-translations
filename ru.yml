@@ -1,0 +1,779 @@
+---
+en:
+  admin:
+    welcome:
+      index:
+        total_views: Total Views
+        lesson_title: Lesson title
+    paths:
+      certificates_tab:
+        completed: Completed Lessons
+        status: Certificates Status
+        issued: Issued
+        pending: Pending
+        automatic: Automatically
+        canceled: Canceled
+        pdf: View as PDF
+        cancel: Cancel
+        issue: Issue
+        no_certificate: There is no certificate template created yet.
+        create_template: Create a template
+      users_tab:
+        completed: Completed Lessons
+        details: Details
+    users:
+      index:
+        banner_button: Change access policy
+        banner_title: Want to allow users to sign up by themselves?
+        invite:
+          button: Invite User
+          email: Email address
+          name: Name
+          title: Invite new users
+        sharelink:
+          button: Copy
+          title: Or share this link
+    groups:
+      index:
+        members: Members
+        member: Member
+        new: New group
+        edit: Edit group
+        modal_form_name: Name
+        modal_form_users_label: Add users
+        modal_form_users_placeholder: Select users
+        modal_title: Create a new group
+      show:
+        action:
+          remove: Remove from group
+        col_name: Name
+        modal_form_name_placeholder: Name
+        modal_form_users_label: Add users
+        modal_form_users_placeholder: Select users
+        modal_title: Update group
+    certificate_templates:
+      index:
+        issue_config: Issue Configuration
+        issued: Issued
+        manual: Manual
+        automatic: Automatic
+        template: Template
+        not_created: Not created yet
+        edit: Edit template
+        create: Create template
+    layouts:
+      application:
+        workspace: Back to Academy  
+    questions:
+      show:
+        col:
+          attempts: Attempts
+          correct: Correct
+          name: Name
+        completed: Completed
+        title: Title
+    plans:
+      index:
+        manage: Manage your Plan
+        lifetime: Lifetime access to
+        includes: Plan includes
+        current: Current Plan
+        unlimited: Unlimited
+        unlimited_learners: Unlimited learners
+        unlimited_creators: Unlimited creators
+        unlimited_drafts: Unlimited draft courses
+        analytics: Advanced analytics
+        features: View all features
+        upgrade: Upgrade plan
+        quote: Get a quote
+        features_included: Features included in all plans
+        alert_premium: Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
+        topic1: Private/public academy
+        topic2: 'Micro-learning: bite-sized course creator'
+        topic3: Public, restricted and hidden courses
+        topic4: Quizzes
+        topic5: Custom domain
+        topic6: Email invites/link invites
+        topic7: Embed widgets
+        topic8: Custom branding
+        topic9: Certificates
+        topic10: Groups
+        topic11: Multiple languages
+        topic12: All lessons in one place/lesson view
+        topic13: User profiles
+        topic14: Clone lessons
+        topic15: Course collaborators
+    tenants:
+      edit:
+        name: Academy name
+        name_placeholder: Enter your team or company name
+        welcome_subtitle: Secondary welcome message
+        welcome_title: Primary welcome message
+        whitelabel: White Label
+        whitelabel_checkbox: Remove 'Powered by Marble' signatures
+        design_title: Design
+        design_subtitle: Update your brand logo, background images and the colors used in your academy.
+        brand_instructions: 'Max size: 2000 x 700 px'
+        brand_logo: Brand logo
+        save_logo: Save logo
+        go_to_themes: Go to theme settings
+      domain:
+        form:
+          placeholder: example.yourdomain.tld
+          submit: Save custom domain
+          subtext: 'Please enter your custom (sub)domain without http:// or https://. Your domain will automatically be secured by SSL. It may take up to 24 hours for the DNS changes to be reflected.'
+        subtitle: Set a custom domain for your space
+        text_html: "Your space will be available on %{url} and the <span class='font-weight-bold'>custom
+          domain</span> you choose here:"
+        title: Custom Domain
+        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Learn more how to enable a custom domain</a>
+      language:
+        submit: Save language
+        label: Language
+        subtitle: Change the language for the entire space.
+      access_policy:
+        action: Change access
+        modal:
+          form:
+            open:
+              label1: Open
+              label2: Anyone with the link can register to the academy.
+            private:
+              label1: Private
+              label2: Only people invited to the academy have access to it.
+            public:
+              label1: Public
+              label2: Anyone with the link can view this academy and its lessons.
+          title: Change access policy
+        subtitle: Change access policy
+        text: You can change the <strong>access policy</strong> for this academy, which is currently <strong>%{value}</strong>.
+        title: Danger Zone
+        notification:
+          open: open
+          private: private
+          public: public
+          subtitle: Get notifications in Slack
+          text: When a course is published or an lesson added, MarbleBot will notify
+            your space via Slack.
+          title: Notifications
+    themes:
+      new:
+        background_image: Background image
+        bg_instructions: 'Max size: 3000 x 1000 px'
+        brand_instructions: 'Max size: 500 x 175 px'
+        brand_logo: Brand logo
+        button_color: Buttons color
+        button_text_color: Buttons text color
+        colors: Colors
+        colors_subtitle: Please, choose the main colors of your space.
+        course_background: Course background
+        course_background_image: Course background image
+        course_body_text_color: Course body text color
+        course_design: Course design
+        course_design_subtitle: Course design subtitle
+        delete_image: Delete image
+        go_to: Go to theme settings
+        images: Images
+        images_subtitle: Customize the images shown in your space.
+        name: Theme name
+        navbar_color: Main navigation bar color
+        navbar_text_color: Main navigation bar text color
+        save: Save new theme
+        title: Theme settings
+        title_color: Title color on homepage
+      edit:
+        background_image: Background image
+        bg_instructions: 'Max size: 3000 x 1000 px'
+        brand_instructions: 'Max size: 500 x 175 px'
+        brand_logo: Brand logo
+        button_color: Buttons color
+        button_text_color: Buttons text color
+        colors: Colors
+        colors_subtitle: Please, choose the main colors of your space.
+        course_background: Course background
+        course_background_image: Course background image
+        course_body_text_color: Course body text color
+        course_design: Course design
+        course_design_subtitle: Course design subtitle
+        delete_image: Delete image
+        go_to: Go to theme settings
+        images: Images
+        images_subtitle: Customize the images shown in your space.
+        navbar_color: Main navigation bar color
+        navbar_text_color: Main navigation bar text color
+        save: Save changes
+        title: Theme settings
+        title_color: Title color on homepage
+  errors:
+    messages:
+      not_saved:
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
+  items:
+    edit:
+      button_cancel: Cancel
+      button_update: Update Lesson
+      choose_file: Choose file
+      file_size: "(max. 10MB)"
+      item_code: Code
+      item_description: Description
+      item_tags: Tags
+      item_tags_text: Enter a Tag
+      item_title: Title
+      item_url: Url
+      nolink_text: Don't have a link? Upload a file
+      title: Editing Lesson
+    edit_path_item:
+      add_content: Add Lesson
+      button_cancel: Cancel
+      button_update: Update Lesson
+      choose_file: Choose file
+      edit: Edit
+      file_size: "(max. 10MB)"
+      file_text: Currently uploaded
+      item_body: Description
+      item_code: Code
+      item_description: Description
+      item_tags: Tags
+      item_tags_text: Enter a Tag
+      item_title: Title
+      item_url: Url
+      nolink_text: Don't have a link? Upload a file
+      question: Add Question
+      title: Edit lesson
+      title_2: Questions
+    edit_path_item_advanced:
+      choose_file: Choose file
+      file_text: Currently uploaded
+      item_tags_text: Enter a tag
+      nolink_text: Don't have a link? Upload a file
+    index:
+      all: All
+      create_path: Create new course
+      reset: Reset
+      search: Search
+      tag: Select a tag
+      title: Lessons
+    myitem_show:
+      answer: View Answer
+      back: 'Back to:'
+      complete: Complete
+      contents: Lessons
+      feedback: How was it?
+      feedback_text: You just completed
+      link: Visit link
+      mark_finished: Mark Finished
+      next: Next up
+      next_lesson: Continue to Next Lesson
+      start_next_lesson: Start Next Lesson
+      to_path: Return to course
+    myitem_show_advanced:
+      complete: Complete
+      completed: Completed
+      link: Visit link
+      mark_finished: Mark Finished
+    new:
+      button_cancel: Cancel
+      button_update: Update Lesson
+      choose_file: Choose file
+      file_size: "(max. 10MB)"
+      item_code: Code
+      item_description: Description
+      item_tags: Tags
+      item_tags_text: Enter a Tag
+      item_title: Title
+      item_url: Url
+      nolink_text: Don't have a link? Upload a file
+      title: New Item
+    new_path_item:
+      add_content: Add lesson
+      add_existing_content: Add existing lesson
+      add_items_text: Find lesson
+      add_items_title: Choose lessons to add
+      add_new_content: Add new lesson
+      add_question: Add question
+      button_save: Save Lesson
+      choose_file: Choose file
+      file_size: "(max. 10MB)"
+      item_body: Description
+      item_code: Code
+      item_description: Description
+      item_tags: Tags
+      item_tags_text: Enter a Tag
+      item_title: Title
+      item_url: Url
+      nolink_text: Don't have a link? Upload a file
+      question_text: You can add questions after creating the lesson.
+      question_title: Questions
+      save_item: Save lesson
+    show:
+      back: Back
+      link: Visit link
+  layouts:
+    _navbar:
+      account_question: Have an account?
+      admin: Admin
+      admin_settings: Admin Settings
+      create_path: Create a course
+      design: Design
+      invite_users: Invite Users
+      items: Lessons
+      my_profile: My profile
+      my_settings: My settings
+      paths: Courses
+      sign_in: Sign In
+      sign_out: Sign Out
+      support: Support
+      templates: Templates
+      users: Users
+    _navbar_tenants:
+      account_question: Have an account?
+  notification_mailer:
+    new_path_notification:
+      email: Email
+      sign_in: Sign In
+      workspace_name: Workspace name
+      workspace_url: Workspace URL
+  paths:
+    show_settings:
+      delete_image: Delete image
+      restore_image: Restore default
+    _edit_cover_image_modal:
+      label:
+        banner: Cover image
+        banner_instructions: 'Max size: 3000 x 1500 px'
+      title: Change course cover image
+    _edit_path_modal:
+      edit_path: Edit course
+      label:
+        description: Description
+        image: Course background image
+        image_instructions: "Max size: 3500 x 1100 px"
+        text_color: Course title color
+        title: Title
+      path_description: Description
+      path_title: Title
+    _existing_items_modal:
+      select_items: Select lessons
+      title: Add Existing Lessons
+    _modal_add_content:
+      add_existing_content: Add existing lesson
+      add_new_content: Add new lesson
+      choose_file: Choose file
+      choose_items: Choose lessons to add
+      enter_url: Enter a URL
+      file_size: "(max. 10MB)"
+      find_content: Find lesson
+      item_description: Description
+      item_tags_text: Enter a Tag
+      item_title: Title
+      new: New
+      nolink_text: Don't have a link? Upload a file
+    _modal_add_question:
+      add_option: Add option
+      ask_question: Ask a question...
+      title: Multiple Choice Question
+    _modal_edit_item:
+      choose_file: Choose file
+      file_size: "(max. 10MB)"
+      item_description: Description
+      item_tags_text: Enter a Tag
+      item_title: Title
+      item_url: Url
+      nolink_text: Don't have a link? Upload a file
+      title: Edit lesson
+    _modal_edit_question:
+      add_option: Add option
+      title: Edit question
+    _modal_path_settings:
+      all_learners: All learners
+      anyone_with_link: Anyone with link
+      anyone_with_link_text_1: Anyone with the link
+      anyone_with_link_text_2: Anyone on the internet can view this course
+      assign_learners: Assign learners
+      assign_learners_text: You can assign individual learners who will be able to see the path and are notified about the course.
+      assign_groups: Assign groups
+      assign_groups_text: You can also assign groups of learners previously created in the admin environment.
+      change_timezone: Change your time zone here
+      currently_in: You are currently in %{timezone} time
+      design_description: Design
+      design_title: Change the layout of your learner mode
+      find_learners: Find learners
+      find_groups: Find groups
+      form_title: The form contains
+      group_path_title: Group course settings
+      no_notifications: No notifications
+      noend_button: End Date
+      notifications: Notifications
+      notifications_text: Your learners will receive a notification about this course.
+      now_button: Now
+      only_assigned: Only assigned members
+      path_collaboration: Course collaboration
+      path_collaboration_text: Allow learners to add lessons to this course.
+      person_space: persons in your space.
+      privacy: Privacy
+      privacy_text: Set the privacy of this course.
+      public_text: Anyone in the space can view this course.
+      restricted: Restricted
+      restricted_text: Only learners assigned can open with this course.
+      schedule_path: Schedule course
+      schedule_path_text_1: Courses are generally always available to your space.
+      schedule_path_text_2: With this setting, you can schedule courses to be available
+        only for a certain period of time.
+      sending_notification: You will be sending a notification to
+      start_date: Start Date
+    _new_item_modal:
+      choose_file: Choose file
+      enter_url: Enter a URL
+      file_size: "(max. 10MB)"
+      item_description: Description
+      item_tags_text: Enter a Tag
+      item_title: Title
+      nolink_text: Don't have a link? Upload a file
+      title: Add new lesson
+    _path:
+      change_cover: Change Cover
+      edit_path: Edit Course
+      items:
+        one: "%{count} Lesson"
+        other: "%{count} Lessons"
+      view_path: View Course
+    _path_edit_head:
+      draft: Draft
+      publish: Publish
+      save: Save
+    _paths_list:
+      create_first_path: Create your first course
+      no_paths: There are no courses here yet.
+    edit:
+      add_content: Add lesson
+      all_learners: All learners
+      anyone_with_link: Anyone with link
+      anyone_with_link_text_2: Anyone on the internet can view this course.
+      assign_learners: Assign learners
+      assign_learners_text: You can assign individual learners who will be able to
+        see the course and are notified about the course.
+      change_name: Change Name
+      change_timezone: Change your time zone here
+      currently_in: You are currently in
+      form_title: The form contains
+      group_path_title: Group course settings
+      no_notifications: No notifications
+      noend: No end
+      noend_button: End Date
+      notifications: Notifications
+      notifications_text: Your learners will receive a notification about this course.
+      now_button: Now
+      only_assigned: Only assigned members
+      path_collaboration: Course collaboration
+      path_collaboration_text: Allow learners to add lessons to this course.
+      person_space: persons in your space.
+      privacy: Privacy
+      privacy_text: Set the privacy of this course.
+      public_text: Anyone in the space can view this course.
+      publish: Publish
+      restricted: Restricted
+      restricted_text: Only learners assigned can open with this course.
+      schedule_path: Schedule a course
+      schedule_path_text_1: Courses are generally always available to your space.
+      schedule_path_text_2: With this setting, you can schedule courses to be available
+        only for a certain period of time.
+      sending_notification: You will be sending a notification to
+      start_date: Start Date
+      title_1: Add lesson
+      title_2: Group course settings
+    index:
+      assigned: Assigned to me
+      available: Available
+      draft: Drafts
+      expired: Expired
+      title: Courses
+    review:
+      all_learners: All learners
+      assign_users: Assign users
+      assign_users_text: You can assign individual users who will be able to see the
+        course and are notified about the course.
+      change_timezone: Change your time zone here
+      currently_in: You are currently in
+      find_learners: Find learners
+      form_title: The form contains
+      no_notifications: No notifications
+      noend_button: End Date
+      notifications: Notifications
+      notifications_text: Your learners will receive a notification about this course.
+      now_button: Now
+      only_assigned: Only assigned members
+      open-ended: Open-ended
+      person_space: Persons
+      previous: Previous
+      publish: Publish
+      save_draft: Save as draft
+      schedule_path: Schedule course
+      schedule_path_text_1: Courses are generally always available to your space.
+      schedule_path_text_2: With this setting, you can schedule courses to be available
+        only for a certain period of time.
+      sending_notification: You will be sending a notification to
+      start_date: Start Date
+      title: Configure course
+    show:
+      add_item: Add at least one lesson
+      course_details: Course Details
+      edit: Edit
+      enter_emails: Enter emails here
+      group_path_title: Tags
+      invitations_sent: Invitations sent to
+      invite: Invite
+      invite_learners: Invite learners
+      invite_learners_text: The learners will be invited and assigned to this course.
+      learners: learners.
+      no_items: There are no lessons yet.
+      path_published: Course was successfully published.
+      resume: Resume
+      send_invitations: Send invitations
+      sign_in: Sign In
+      start: Start
+      title: Lesson
+      view: View
+    show_share:
+      enter_emails: Enter emails here
+      invitations_sent: Invitations sent to
+      invite_learners_text: The learners will be invited and assigned to this course.
+      learners: learners
+      sharelink:
+        button: Copy
+        title: Share this link
+      title: Invite new learners
+    templates:
+      create_template: Create from template
+      items: Lessons
+      title: Templates
+      view_original: View original course
+  questions:
+    _modal_view_answer:
+      correct: Correct answer!
+      correct_text: 'The correct answer is option:'
+      incorrect: Incorrect!
+      title: Multiple choice question
+    _modal_view_question:
+      cancel: Cancel
+      correct: Correct answer!
+      correct_text: 'The correct answer is option:'
+      incorrect: Incorrect!
+      submit: Submit
+      title: Multiple choice question
+    _option_fields:
+      answer: Check for correct answer
+      option: Option
+    _question_form:
+      add_option: Add option
+      ask_question: Ask a question...
+      title: Question
+      save_options: Save options
+    _view_question:
+      title: Quiz Question
+  profiles:
+    _modal_edit_profile:
+      edit: Edit
+      email: Enter an email address
+      locale: Language
+      name: Enter your name
+      position: Enter your position
+      title: Settings
+    _profile_header:
+      create_path: Create a new path
+      title: Create
+    _profile_navigation:
+      hello: hello
+      items: Lessons
+      paths: Courses
+      title: Overview
+    edit:
+      email: Enter an email address
+      locale: Language
+      name: Enter your name
+      position: Enter your position
+      title: Settings
+  users:
+    profiles:  
+      certificates:
+        no_certificate: You don't have any issued certificate yet.
+        date_issue: Date of issue
+        view_pdf: View as PDF
+      items:
+        no_lessons: You don't have lessons available yet.  
+      paths:
+        no_courses: You don't have courses available yet. 
+      show:
+        overview: Overview
+        progress: Learn Progress
+        stats: Personal Statistics
+      edit:
+        email: Enter an email address
+        locale: Language
+        name: Enter your name
+        position: Enter your position
+        title: Settings
+    index:
+      title: Users
+    invitations:
+      edit:
+        consent_text_html: By continuing, you're agreeing to our %{terms}.
+        label:
+          name: Name
+          password: Password
+          password_confirmation: Password Confirmation
+        password_text: Your password should be at least 6 characters long (and contain
+          numbers and special characters for extra security).
+        placeholder:
+          name: Enter your name
+          password: Enter a password
+          password_confirmation: Enter the password again
+        submit_button: Save my password
+        subtitle_html: You'll use your email address (<strong>%{email}</strong>) and
+          a password to sign in to your space on Marble.
+        title: Join %{tenant}
+    mailer:
+      invitation_instructions:
+        body_html: has invited you to join the space <strong>%{tenant}</strong>. Join
+          now to start learning!
+        cta: Join Now
+        title: Join %{tenant} on Marble
+      reset_password_instructions:
+        body: 'You told us you forgot your password. If you really did, click here
+          to choose a new one:'
+        cta: Choose a New Password
+        hint: "“Choose a New Password” button not working?"
+        hint2: 'Just copy and paste this link in your browser:'
+        no_reset: If you didn't mean to reset your password, then you can just ignore
+          this email; your password will not change.
+        title: Reset your password
+    passwords:
+      edit:
+        label:
+          confirm_password: Confirm New Password
+          password: New Password
+        password_description: Your password should be at least 6 characters long (and
+          contain numbers and special characters for extra security).
+        submit_button: Change my password
+        subtitle_html: Enter your new password for your Marble account to sign in
+          to <strong>%{tenant}</strong>.
+        title: Password Reset
+      new:
+        reset_link: Get Reset Link
+        subtitle_html: To reset your password, enter the email address you use to
+          sign in to <strong>%{tenant}</strong>.
+        title: Password Reset
+    registrations:
+      new:
+        label:
+          confirm_password: Confirm password
+          email: Email address
+          name: Name
+          password: Password
+        placeholder:
+          confirm_password: Enter the password again
+          email: Enter your email address
+          name: Enter your name
+          password: Enter your password
+        terms_button: Terms of Service
+        terms_html: By continuing, you're agreeing to our %{link}.
+        title: Sign up to %{tenant}
+    sessions:
+      new:
+        label:
+          email: Email
+          password: Password
+          remember_me: Remember me
+        placeholder:
+          email: Enter your email address
+          password: Enter your password
+        title: Sign in to %{tenant}
+    shared:
+      _links:
+        forgot: Forgot your password?
+  welcome:
+    _modal_new_path:
+      label:
+        items: Select lesson
+      placeholder:
+        description: Description
+        select_items: Select lessons
+        title: Title
+      title: Create a new course
+    home:
+      my_paths: My Courses
+      other_paths: Other Courses
+      welcome: Welcome to %{tenant}'s Academy
+    signin:
+      continue: Continue
+      label: Enter your Space URL
+      placeholder: your-team-url
+      title: Sign in to your Space
+  global:
+    back: Back
+    cancel: Cancel
+    close: Close
+    delete: Delete
+    destroy: Destroy
+    edit: Edit
+    new: New
+    remove: Remove
+    save: Save
+    search: Search
+    save_changes: Save changes
+    sign_in: Sign in
+    sign_up: Sign up
+    sure: Are you sure?
+    active: Active
+    inactive: Inactive
+    update: Update
+    save_pdf: Upload and save PDF file
+    admin: Admin
+    name: Name
+    title: Title
+    details: Details
+    course: Course
+    courses: Courses
+    lesson: Lesson
+    lessons: Lessons
+    user: User
+    users: Users
+    academy: Academy
+    academies: Academies
+    group: Group
+    groups: Groups
+    tag: Tag
+    tags: Tags
+    view: View
+    views: Views
+    date: Date
+    "yes": "Yes"
+    "no": "No"
+    min: min
+    h: h
+    s: s
+    ago: ago
+    analytics: Analytics
+    time_spent: Time Spent
+    last_seen: Last Seen
+    completed: Completed
+    completion: Completion
+    satisfaction: Satisfaction
+    avg_satisfaction: Avg. Satisfaction
+    actions: Actions
+    dashboard: Dashboard
+    role: Role
+    admin: Admin
+    admins: Admins
+    creator: Creator
+    creators: Creators
+    learner: Learner
+    learners: Learners
+    certificate: Certificate
+    certificates: Certificates
+    question: Question
+    questions: Questions
+    settings: Settings
+    billing: Billing
+    integration: Integration
+    integrations: Integrations    
