@@ -34,7 +34,7 @@ en:
           button: Copiar
           title: O comparte este enlace
     items:
-      completed: ''
+      completed: Completado
     groups:
       index:
         members: Miembros
