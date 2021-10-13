@@ -140,7 +140,7 @@ en:
         modal:
           form:
             open:
-              label1: Open
+              label1: Abrir
               label2: Anyone with the link can register to the academy.
             private:
               label1: Private
