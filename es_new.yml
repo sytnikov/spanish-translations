@@ -3,115 +3,115 @@ en:
   admin:
     welcome:
       index:
-        total_views: Total Views
-        lesson_title: Lesson title
+        total_views: Vistas Totales
+        lesson_title: Título de la lección
     paths:
       certificates_tab:
-        completed: Completed Lessons
-        status: Certificates Status
-        issued: Issued
-        pending: Pending
-        automatic: Automatically
-        canceled: Canceled
-        pdf: View as PDF
-        cancel: Cancel
-        issue: Issue
-        no_certificate: There is no certificate template created yet.
-        create_template: Create a template
+        completed: Lecciones Completadas
+        status: Estado de los certificados
+        issued: Emitido
+        pending: Pendiente
+        automatic: Automáticamente
+        canceled: Cancelado
+        pdf: Ver como PDF
+        cancel: Cancelar
+        issue: Asunto
+        no_certificate: Todavía no hay una plantilla creada
+        create_template: Crear una plantilla
       users_tab:
-        completed: Completed Lessons
-        details: Details
+        completed: Lecciones Completadas
+        details: Detalles
     users:
       index:
-        banner_button: Change access policy
-        banner_title: Want to allow users to sign up by themselves?
+        banner_button: Cambiar la política de acceso
+        banner_title: ¿Deseas permitir a los usuarios inscribirse por ellos mismos?
         invite:
-          button: Invite User
-          email: Email address
-          name: Name
-          title: Invite new users
+          button: Invitar a un usuario
+          email: Direccion de correo
+          name: Nombre
+          title: Invitar a nuevos usuarios
         sharelink:
-          button: Copy
-          title: Or share this link
+          button: Copiar
+          title: O comparte este enlace
     items:
-      completed: Completed
+      completed: ''
     groups:
       index:
-        members: Members
-        member: Member
-        new: New group
-        edit: Edit group
-        modal_form_name: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Create a new group
+        members: Miembros
+        member: Miembro
+        new: Nuevo grupo
+        edit: Editar grupo
+        modal_form_name: Nombre
+        modal_form_users_label: Añadir usuarios
+        modal_form_users_placeholder: Seleccionar usuarios
+        modal_title: Crear un nuevo grupo
       show:
         action:
-          remove: Remove from group
-        col_name: Name
-        modal_form_name_placeholder: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Update group
+          remove: Eliminar del grupo
+        col_name: Nombre
+        modal_form_name_placeholder: Nombre
+        modal_form_users_label: Añadir usuarios
+        modal_form_users_placeholder: Seleccionar usuarios
+        modal_title: Actualizar grupo
     certificate_templates:
       index:
-        issue_config: Issue Configuration
-        issued: Issued
+        issue_config: Problema de configuración
+        issued: Emitido
         manual: Manual
-        automatic: Automatic
-        template: Template
-        not_created: Not created yet
-        edit: Edit template
-        create: Create template
+        automatic: Automático
+        template: Plantilla
+        not_created: Todavía no se ha creado
+        edit: Editar plantilla
+        create: Crear plantilla
     layouts:
       application:
-        workspace: Back to Academy
+        workspace: Regresar a la Academia
     questions:
       show:
         col:
-          attempts: Attempts
-          correct: Correct
-          name: Name
-        completed: Completed
-        title: Title
+          attempts: Intentos
+          correct: Correcto
+          name: Nombre
+        completed: Completado
+        title: Título
     plans:
       index:
-        manage: Manage your Plan
-        lifetime: Lifetime access to
-        includes: Plan includes
-        current: Current Plan
-        unlimited: Unlimited
-        unlimited_learners: Unlimited learners
-        unlimited_creators: Unlimited creators
-        unlimited_drafts: Unlimited draft courses
-        analytics: Advanced analytics
-        features: View all features
-        upgrade: Upgrade plan
-        quote: Get a quote
-        features_included: Features included in all plans
-        alert_premium: Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
-        topic1: Private/public academy
-        topic2: 'Micro-learning: bite-sized course creator'
-        topic3: Public, restricted and hidden courses
-        topic4: Quizzes
-        topic5: Custom domain
-        topic6: Email invites/link invites
-        topic7: Embed widgets
-        topic8: Custom branding
-        topic9: Certificates
-        topic10: Groups
-        topic11: Multiple languages
-        topic12: All lessons in one place/lesson view
-        topic13: User profiles
-        topic14: Clone lessons
-        topic15: Course collaborators
+        manage: Gestiona tu plan
+        lifetime: Acceso de por vida
+        includes: El plan incluye
+        current: Plan Actual
+        unlimited: Ilimitado
+        unlimited_learners: Estudiantes ilimitados
+        unlimited_creators: Creadores ilimitados
+        unlimited_drafts: Cursos ilimitados en borradores
+        analytics: Analítica avanzada
+        features: Ver todas las características
+        upgrade: Mejorar el plan
+        quote: Obtener un presupuesto
+        features_included: Características incluídas en todos los planes
+        alert_premium: 'Tu plan incluye dos academias. Si quieres crear una segunda, por favor, contacta con nosotros a través de <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.'
+        topic1: Academia privada/pública
+        topic2: 'Microaprendizaje: creador de pequeños cursos'
+        topic3: Cursos públicos, restringidos y ocultos
+        topic4: Cuestionarios
+        topic5: Dominio personalizado
+        topic6: Invitación por e-mail/Invitación por enlace
+        topic7: Incrustar widgets
+        topic8: Branding personalizado
+        topic9: Certificados
+        topic10: Grupos
+        topic11: Multiples lenguajes
+        topic12: Todas las lecciones en un lugar/vista de lecciones
+        topic13: Perfiles de usuario
+        topic14: Clonar lecciones
+        topic15: Colaboradores del curso
     tenants:
       edit:
-        name: Academy name
-        name_placeholder: Enter your team or company name
-        welcome_subtitle: Secondary welcome message
-        welcome_title: Primary welcome message
-        whitelabel: White Label
+        name: Nombre de la academia
+        name_placeholder: Introduce tu nombre de equipo o compañía
+        welcome_subtitle: Mensaje de bienvenida secundario
+        welcome_title: Mensaje de bienvenida principal
+        whitelabel: Marca blanca
         whitelabel_checkbox: Remove 'Powered by Marble' signatures
         design_title: Design
         design_subtitle: Update your brand logo, background images and the colors used in your academy.
