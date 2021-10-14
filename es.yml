@@ -112,163 +112,163 @@ en:
         welcome_subtitle: Mensaje de bienvenida secundario
         welcome_title: Mensaje de bienvenida principal
         whitelabel: Marca blanca
-        whitelabel_checkbox: Remove 'Powered by Marble' signatures
-        design_title: Design
-        design_subtitle: Update your brand logo, background images and the colors used in your academy.
-        brand_instructions: 'Max size: 2000 x 700 px'
-        brand_logo: Brand logo
-        favicon_logo: Favicon logo
-        save_logo: Save logo
-        save_favicon_logo: Save Favicon logo
-        go_to_themes: Go to theme settings
+        whitelabel_checkbox: Quitar las firmas 'Powered by Marble' 
+        design_title: Diseño
+        design_subtitle: Actualizar logo de marca, imágenes de fondo y colores utilizados en tu academia
+        brand_instructions: 'Tamaño máximo: 2000 x 700 px'
+        brand_logo: Logo de marca
+        favicon_logo: Logo favicon
+        save_logo: Guardar logo
+        save_favicon_logo: Guardar logo favicon
+        go_to_themes: Ir a la configuración del tema
       domain:
         form:
-          placeholder: example.yourdomain.tld
-          submit: Save custom domain
-          subtext: 'Please enter your custom (sub)domain without http:// or https://. Your domain will automatically be secured by SSL. It may take up to 24 hours for the DNS changes to be reflected.'
-        subtitle: Set a custom domain for your academy
-        text_html: "Your academy will be available on %{url} and the <span class='font-weight-bold'>custom
-          domain</span> you choose here:"
-        title: Custom Domain
-        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Learn more how to enable a custom domain</a>
+          placeholder: ejemplo.tudominio.tld
+          submit: Guardar dominio personalizado
+          subtext: 'Por favor introduce tu (sub)dominio personalizado sin http:// o https://. Tu dominio será automáticamente seguro por SSL. Los cambios de DNS pueden llevar hasta 24 horas hasta que se vean reflejados'
+        subtitle: Establece un dominio personalizado para tu academia
+        text_html: "Tu academia estará disponible en %{url} y <span class='font-weight-bold'>custom
+          domain</span> elige aquí:"
+        title: Dominio Personalizado
+        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Aprende más sobre cómo habilitar un dominio personalizado</a>
       language:
-        submit: Save language
-        label: Language
-        subtitle: Change the language for the entire academy.
+        submit: Guardar idioma
+        label: Idioma
+        subtitle: Cambiar el idioma en toda la academia.
       access_policy:
-        action: Change access
+        action: Cambiar acceso
         modal:
           form:
             open:
               label1: Abrir
-              label2: Anyone with the link can register to the academy.
+              label2: Cualquiera con el enlace puede resgistrarse en la academia.
             private:
-              label1: Private
-              label2: Only people invited to the academy have access to it.
+              label1: Privado
+              label2: Únicamente personas invitadas a la academia tienen acceso a ella.
             public:
-              label1: Public
-              label2: Anyone with the link can view this academy and its lessons.
-          title: Change access policy
-        subtitle: Change access policy
-        text: You can change the <strong>access policy</strong> for this academy, which is currently <strong>%{value}</strong>.
-        title: Danger Zone
+              label1: Publico
+              label2: Cualquiera con un enlace puede ver esta academia y sus lecciones.
+          title: Cambiar la política de accesos
+        subtitle: Cambiar la política de accesos
+        text: Puedes cambiar la <strong>política de accesos</strong> de esta academia, que actualmente es <strong>%{value}</strong>.
+        title: Zona Peligrosa
         notification:
-          open: open
-          private: private
-          public: public
-          subtitle: Get notifications in Slack
-          text: When a course is published or an lesson added, MarbleBot will notify
-            you via Slack.
-          title: Notifications
+          open: Abrir
+          private: privado
+          public: publico
+          subtitle: Obtener notificaciones en Slack
+          text: Cuando un curso es publicado o una lección añadida, MarbleBot te lo notificará
+           via Slack.
+          title: Notificaciones
       settings_navigation:
-        brand: "Brand"
-        domain: "Domain"
-        language: "Language"
-        access_policy: "Access Policy"
+        brand: "Marca"
+        domain: "Dominio"
+        language: "Idioma"
+        access_policy: "Política de acceso"
     themes:
-      background_image: Background image
-      bg_instructions: 'Max size: 3000 x 1000 px'
-      brand_instructions: 'Max size: 500 x 175 px'
-      brand_logo: Brand logo
-      button_color: Buttons color
-      button_text_color: Buttons text color
-      colors: Colors
-      colors_subtitle: Please, choose the main colors of your academy.
-      course_background: Course background
-      course_background_image: Course background image
-      course_body_text_color: Course body text color
-      course_design: Course design
-      course_design_subtitle: Course design subtitle
-      delete_image: Delete image
-      go_to: Go to theme settings
-      images: Images
-      images_subtitle: Customize the images shown in your academy.
-      name: Theme name
-      navbar_color: Main navigation bar color
-      navbar_text_color: Main navigation bar text color
-      save: Save new theme
-      title: Theme settings
-      title_color: Title color on homepage
+      background_image: Imagen de fondo
+      bg_instructions: 'Tamaño máximo: 3000 x 1000 px'
+      brand_instructions: 'Tamaño máximo: 500 x 175 px'
+      brand_logo: Logo de marca
+      button_color: Color de los botones
+      button_text_color: Color del texto en los botones
+      colors: Colores
+      colors_subtitle: Por favor, escoge los colores principales de tu academia.
+      course_background: Fondo del curso
+      course_background_image: Imagen de fondo del curso
+      course_body_text_color: Color del texto principal del curso
+      course_design: Diseño del curso
+      course_design_subtitle: Diseño del subtítulo del curso
+      delete_image: Borrar imagen
+      go_to: Ir a la configuración de temas
+      images: Imágenes
+      images_subtitle: Personaliza las imágenes que se muestran en tu academia.
+      name: Nombre del tema
+      navbar_color: Color de la barra de navegación principal
+      navbar_text_color: Color del texto de la barra de navegación principal
+      save: Guardar nuevo tema
+      title: Configuración del tema
+      title_color: Color del título de la página principal
   errors:
     messages:
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 error impide a %{resource} ser guardado:'
+        other: "%{count} errores impiden a %{resource} ser guardado:"
   items:
-    update: Update Lesson
-    edit: Edit Lesson
-    delete: Delete Lesson
-    add: Add Lesson
-    create: Create Lesson
-    save: Save Lesson
-    add_question: Add Question
-    choose_file: Choose a file
-    item_code: Code
+    update: Actualizar Lección
+    edit: Editar Lección
+    delete: Borrar Lección
+    add: Añadir Lección
+    create: Crear Lección
+    save: Guardar Lección
+    add_question: Añadir Pregunta
+    choose_file: Elegir un archivo
+    item_code: Código
     file_size: "(max. 10MB)"
-    enter_tag: Enter a Tag
-    uploaded: Currently Uploaded
-    nolink_text: Don't have a link? Upload a file
+    enter_tag: Introducir una etiqueta
+    uploaded: Ya Cargado
+    nolink_text: ¿No tienes un enlace? Sube un archivo
     edit_path_item_advanced:
-      choose_lesson: Choose a lesson type
-      website_description: A card for any link
-      video_description: Immersive video integration
-      pdf_description: Upload or link to a file
-      text_description: Long form text with style
-      embed_description: Embed any content you like
-      quiz_description: Giver clear options
+      choose_lesson: Elegir un tipo de lección
+      website_description: Un tarjeta de cualquier enlace
+      video_description: Integración de vídeo inmersivo
+      pdf_description: Carga o enlaza un archivo
+      text_description: Texto de informe con estilo
+      embed_description: Incrustar el contenido que quieras
+      quiz_description: Da opciones de borrado
     index:
-      all: All
-      reset: Reset
-      tag: Select a tag
+      all: Todo
+      reset: Resetear
+      tag: Seleccionar una etiqueta
     myitem:
-      answer: View Answer
+      answer: Ver respuesta
       back: 'Back to:'
-      complete: Complete
-      completed: Completed
-      contents: Lessons
-      feedback: How was it?
-      feedback_text: You just completed
-      link: Visit link
-      mark_finished: Mark Finished
-      next: Next up
-      next_lesson: Continue to Next Lesson
-      start_next_lesson: Start Next Lesson
-      to_path: Return to course
+      complete: Completo
+      completed: Completado
+      contents: Lecciones
+      feedback: ¿Qué tal ha ido?
+      feedback_text: Acabas de completar
+      link: Visitar el enlace
+      mark_finished: Marcar como finalizado
+      next: Siguiente
+      next_lesson: Continuar a la siguiente lección
+      start_next_lesson: Empezar siguiente lección
+      to_path: Volver al curso
     new:
-      title: New Lesson
+      title: Nueva lección
     new_path_item:
-      add_existing_content: Add existing lesson
-      add_items_text: Find lesson
-      add_items_title: Choose lessons to add
-      add_new_content: Add new lesson
-      add_question: Add question
-      question_text: You can add questions after creating the lesson.
+      add_existing_content: Añadir lección existente
+      add_items_text: Encontrar una lección
+      add_items_title: Escoger una lección para añadir
+      add_new_content: Añadir nueva lección
+      add_question: Añadir pregunta
+      question_text: Puedes añadir preguntas tras crear una lección.
     show:
-      link: Visit link
+      link: Visitar enlace
   layouts:
     _navbar:
-      account_question: Have an account?
-      admin_settings: Admin Settings
-      create_path: Create a course
-      design: Design
-      invite_users: Invite Users
-      my_profile: My profile
-      my_settings: My settings
-      support: Support
-      templates: Templates
+      account_question: ¿Tienes una cuenta?
+      admin_settings: Configuración de administrador
+      create_path: Crear un curso
+      design: Diseño
+      invite_users: Invitar a usuarios
+      my_profile: Mi perfil
+      my_settings: Mi configuración
+      support: Soporte
+      templates: Plantillas
     _navbar_tenants:
-      account_question: Have an account?
+      account_question: ¿Tienes una cuenta?
   notification_mailer:
     new_path_notification:
-      email: Email
-      sign_in: Sign In
-      workspace_name: Academy name
-      workspace_url: Academy URL
+      email: Dirección de correo
+      sign_in: Iniciar sesión
+      workspace_name: Nombre de la academia
+      workspace_url: URL de la academia
   paths:
     shared:
-      choose_file: Choose a file
+      choose_file: Elegir un archivo
       file_size: "(max. 10MB)"
-      item_tags_text: Enter a tag
+      item_tags_text: Introducir una etiqueta
       nolink_text: Don't have a link? Upload a file
       enter_url: Enter a URL
       enter_emails: Enter emails here
@@ -551,54 +551,54 @@ en:
     inactive: Inactive
     update: Update
     save_pdf: Upload and save PDF file
-    admin: Admin
-    name: Name
-    title: Title
-    description: Description
+    admin: Administrador
+    name: Nombre
+    title: Título
+    description: Descripción
     url: URL
-    email: E-mail
-    details: Details
-    course: Course
-    courses: Courses
-    lesson: Lesson
-    lessons: Lessons
-    user: User
-    users: Users
-    academy: Academy
-    academies: Academies
-    group: Group
-    groups: Groups
-    tag: Tag
-    tags: Tags
-    view: View
-    views: Views
-    date: Date
-    "yes": "Yes"
+    email: Correo electrónico
+    details: Detalles
+    course: Curso
+    courses: Cursos
+    lesson: Lección
+    lessons: Lecciones
+    user: Usuario
+    users: Userios
+    academy: Academia
+    academies: Academias
+    group: Grupo
+    groups: Grupos
+    tag: Etiqueta
+    tags: Etiquetas
+    view: Ver
+    views: Vistas
+    date: Fecha
+    "yes": "Sí"
     "no": "No"
     min: min
     h: h
     s: s
-    ago: ago
-    analytics: Analytics
-    time_spent: Time Spent
-    last_seen: Last Seen
-    completed: Completed
-    completion: Completion
-    satisfaction: Satisfaction
-    avg_satisfaction: Avg. Satisfaction
-    actions: Actions
-    dashboard: Dashboard
-    role: Role
-    admins: Admins
-    creator: Creator
-    creators: Creators
-    learner: Learner
-    learners: Learners
-    certificate: Certificate
-    certificates: Certificates
-    question: Question
-    questions: Questions
-    settings: Settings
-    billing: Billing
-    integration: Integration
-    integrations: Integrations
+    ago: hace
+    analytics: Analítica
+    time_spent: Tempo utilizado
+    last_seen: Última vez visto
+    completed: Completado
+    completion: Terminación
+    satisfaction: Satisfacción
+    avg_satisfaction: Satisfacción media
+    actions: Acciones
+    dashboard: Tablero de instrumentos
+    role: Rol
+    admins: Administradores
+    creator: Creador
+    creators: Creadores
+    learner: Alumno/a
+    learners: Alumnos/as
+    certificate: Certificado
+    certificates: Certificados
+    question: Preguntas
+    questions: Preguntas
+    settings: Ajustes
+    billing: Facturas
+    integration: Integraciones
+    integrations: Integraciones
