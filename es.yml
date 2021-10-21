@@ -144,9 +144,9 @@ en:
               label2: Cualquiera con el enlace puede resgistrarse en la academia.
             private:
               label1: Privado
-              label2: Únicamente personas invitadas a la academia tienen acceso a ella.
+              label2: Únicamente las personas invitadas a la academia tienen acceso a ella.
             public:
-              label1: Publico
+              label1: Público
               label2: Cualquiera con un enlace puede ver esta academia y sus lecciones.
           title: Cambiar la política de accesos
         subtitle: Cambiar la política de accesos
@@ -210,7 +210,7 @@ en:
     nolink_text: ¿No tienes un enlace? Sube un archivo
     edit_path_item_advanced:
       choose_lesson: Elegir un tipo de lección
-      website_description: Un tarjeta de cualquier enlace
+      website_description: Una tarjeta de cualquier enlace
       video_description: Integración de vídeo inmersivo
       pdf_description: Carga o enlaza un archivo
       text_description: Texto de informe con estilo
@@ -218,7 +218,7 @@ en:
       quiz_description: Da opciones de borrado
     index:
       all: Todo
-      reset: Resetear
+      reset: Reiniciar
       tag: Seleccionar una etiqueta
     myitem:
       answer: Ver respuesta
@@ -269,60 +269,60 @@ en:
       choose_file: Elegir un archivo
       file_size: "(max. 10MB)"
       item_tags_text: Introducir una etiqueta
-      nolink_text: Don't have a link? Upload a file
-      enter_url: Enter a URL
-      enter_emails: Enter emails here
-      start_date: Start date
-      end_date: End date
-      draft: Draft
-      publish: Publish
-      previous: Previous
-      start: Start
-      resume: Resume
-      no_notifications: No notifications
-      notifications: Notifications
-      now_button: Now
-      privacy: Privacy
-      anyone_with_link: Anyone with link
-      anyone_with_link_text_2: Anyone on the internet can view this course.
-      restricted: Restricted
-      restricted_text: Only learners assigned can open with this course.
-      privacy_text: Set the privacy of this course.
-      public_text: Anyone in the academy can view this course.
-      available: Available
-      expired: Expired
-      edit_path: Edit Course
+      nolink_text: ¿No tienes un enlace? Sube un archivo
+      enter_url: Introducir una URL
+      enter_emails: Entroducir correos electrónicos aquí
+      start_date: Fecha de inicio
+      end_date: Fecha de finalización
+      draft: Borrador
+      publish: Publicar
+      previous: Anterior
+      start: Comenzar
+      resume: Continuar
+      no_notifications: Sin notificaciones
+      notifications: Notificaciones
+      now_button: Ahora
+      privacy: Privacidad
+      anyone_with_link: Cualquiera con un enlace
+      anyone_with_link_text_2: Cualquiera en internet puede ver este curso.
+      restricted: Restringido
+      restricted_text: Únicamente los estudiantes asignados pueden abrir este curso.
+      privacy_text: Establecer la privacidad de este curso.
+      public_text: Cualquiera en la academia puede ver este curso.
+      available: Disponible
+      expired: Caducado
+      edit_path: Editar el curso
     show_settings:
-      delete_image: Delete image
-      restore_image: Restore default
+      delete_image: Borrar imagen
+      restore_image: Recuperar por defecto
     edit_cover_image_modal:
-      restore: Restore default
+      restore: Recuperar por defecto
       label:
-        banner: Cover image
-        banner_instructions: 'Max size: 3000 x 1500 px'
-      title: Change course cover image
+        banner: Imagen de portada
+        banner_instructions: 'Tamaño máximo: 3000 x 1500 px'
+      title: Cambiar la imagen de portada del curso
     _edit_path_modal:
       label:
-        image: Course background image
-        image_instructions: "Max size: 3500 x 1100 px"
-        text_color: Course title color
+        image: Imagen de fondo del curso
+        image_instructions: "Tamaño máximo: 3500 x 1100 px"
+        text_color: Color del título del curso
     _existing_items_modal:
-      select_items: Select lessons
-      title: Add Existing Lessons
+      select_items: Seleccionar lecciones
+      title: Añadir lecciones existentes
     _modal_add_content:
-      add_existing_content: Add existing lesson
-      add_new_content: Add new lesson
-      choose_items: Choose lessons to add
-      find_content: Find lesson
+      add_existing_content: Añadir lección existente
+      add_new_content: Añadir nueva lección
+      choose_items: Elegir lecciones para añadir
+      find_content: Encontrar una lección
     _modal_add_question:
-      add_option: Add option
-      ask_question: Ask a question...
-      title: Multiple Choice Question
+      add_option: Añadir opción
+      ask_question: Haz una pregunta...
+      title: Pregunta con Múltiples elecciones 
     _modal_edit_item:
-      title: Edit lesson
+      title: Editar lección
     _modal_edit_question:
-      add_option: Add option
-      title: Edit question
+      add_option: Añadir opción
+      title: Editar pregunta
     _modal_path_settings:
       # Part of the strings from this page are linked to the paths/edit
       assign_groups: Assign groups
