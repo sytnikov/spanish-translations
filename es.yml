@@ -459,98 +459,93 @@ en:
       remember: Remember me
       password_text: Your password should be at least 6 characters long (and contain numbers and special characters for additional security)
       _links:
-        forgot: Forgot your password?
+        forgot: ¿Has olvidado tu contraseña?
     profiles:
       certificates:
-        no_certificate: You don't have any issued certificate yet.
-        date_issue: Date of issue
-        view_pdf: View as PDF
+        no_certificate: Aún no tienes ningún certificado emitido.
+        date_issue: Fecha de la emisión
+        view_pdf: Ver como PDF
       items:
-        no_lessons: You don't have lessons available yet.
+        no_lessons: Todavía no tienes lecciones disponibles.
       paths:
-        no_courses: You don't have courses available yet.
+        no_courses: Todavía no tienes cursos disponibles.
       show:
-        overview: Overview
-        progress: Learn Progress
-        stats: Personal Statistics
+        overview: Vista General
+        progress: Progreso de Aprendizaje
+        stats: Estadísticas Personales
     invitations:
       edit:
-        consent_text_html: By continuing, you're agreeing to our %{terms}.
-        submit_button: Save my password
-        subtitle_html: You'll use your email address (<strong>%{email}</strong>) and
-          a password to sign in to your academy on Marble.
-        title: Join %{tenant}
+        consent_text_html: Al continuar, estarás de acuerdo con nuestros %{terms}.
+        submit_button: Guardar mi contraseña
+        subtitle_html: Vas a usar tu dirección de correo electrónico (<strong>%{email}</strong>) y una contraseña para resgistrate en tu academia de Marble.
+        title: Unirse a %{tenant}
     mailer:
       invitation_instructions:
-        body_html: has invited you to join the academy <strong>%{tenant}</strong>. Join
-          now to start learning!
-        cta: Join Now
-        title: Join %{tenant} on Marble
+        body_html: te han invitado a unirte a la academia <strong>%{tenant}</strong>. ¡Únete ahora para empezar a aprender!
+        cta: Únete Ahora
+        title: Únete %{tenant} a Marble
       reset_password_instructions:
-        body: 'You told us you forgot your password. If you really did, click here
-          to choose a new one:'
-        cta: Choose a New Password
-        hint: "“Choose a New Password” button not working?"
-        hint2: 'Just copy and paste this link in your browser:'
-        no_reset: If you didn't mean to reset your password, then you can just ignore
-          this email; your password will not change.
-        title: Reset your password
+        body: 'Nos has comunicado que quitáramos tu contraseña. Si realmente lo hiciste, haz clic aquí
+          para elegir una nueva:'
+        cta: Elegir una Nueva Contraseña
+        hint: "¿No funciona el botón “Elegir una Nueva Contraseña”?"
+        hint2: 'Únicamente copia y pega este enlace en tu navegador:'
+        no_reset: Si no querías reinicar tu contraseña, no hagas caso a este email; tu contraseña no cambiará.
+        title: Reiniciar mi contraseña
     passwords:
       edit:
-        submit_button: Change my password
-        subtitle_html: Enter your new password for your Marble account to sign in
-          to <strong>%{tenant}</strong>.
+        submit_button: Cambiar mi contraseña
+        subtitle_html: Entroduce tu nueva contraseña de tu cuenta de Marble para registrarte en <strong>%{tenant}</strong>.
       new:
-        reset_link: Get Reset Link
-        subtitle_html: To reset your password, enter the email address you use to
-          sign in to <strong>%{tenant}</strong>.
+        reset_link: Obtener un Enlace de Reinicio
+        subtitle_html: Para reiniciar tu contraseña, introduce la dirección de correo que utilizas para registrarte <strong>%{tenant}</strong>.
     registrations:
       new:
-        terms_button: Terms of Service
-        terms_html: By continuing, you're agreeing to our %{link}.
-        title: Sign up to %{tenant}
+        terms_button: Términos de servicio
+        terms_html: Al continuar,'estarás conforme con nuestra %{link}.
+        title: Inscribirse en %{tenant}
     sessions:
       new:
-        title: Sign in to %{tenant}
+        title: Registrarse en %{tenant}
   welcome:
     _modal_new_path:
       label:
-        items: Select lesson
+        items: Seleccionar lección
       placeholder:
-        select_items: Select lessons
-      title: Create a new course
+        select_items: Seleccionar lecciones
+      title: Crear un nuevo curso
     home:
-      my_paths: My Courses
-      other_paths: Other Courses
-      welcome: Welcome to %{tenant}'s Academy
+      my_paths: Mis Cursos
+      other_paths: Otros Cursos
+      welcome: Bienvenido/a a la academia de %{tenant}
     signin:
-      continue: Continue
-      label: Enter your Academy URL
-      placeholder: your-team-url
-      title: Sign in to your Academy
+      continue: Continuar
+      label: Introduce la URL de tu academia
+      placeholder: tu-equipo-url
+      title: Regístrate en tu academia
   global:
-    back: Back
-    cancel: Cancel
-    close: Close
-    delete: Delete
-    destroy: Destroy
-    edit: Edit
-    new: New
-    remove: Remove
-    create: Create
-    add: Add
-    share: Share
-    save: Save
-    search: Search
-    save_changes: Save changes
-    sign_in: Sign in
-    sign_up: Sign up
+    back: Atrás
+    cancel: Cancelar
+    close: Cerrar
+    delete: Borrar
+    destroy: Destruir
+    edit: Editar
+    new: Nuevo
+    remove: Eliminar
+    create: Crear
+    add: Añadir
+    share: Compartir
+    save: Guardar
+    search: Buscar
+    save_changes: Guardar cambios
+    sign_in: Registrarse
+    sign_up: Inscribirse
     sign_out: Sign out
-    sure: Are you sure?
-    active: Active
-    inactive: Inactive
-    update: Update
-    save_pdf: Upload and save PDF file
+    sure: ¿Estas seguro/a?
+    active: Activo
+    inactive: Inactivo
+    update: Actualizar
+    save_pdf: Subir y guardar archivo PDF
     admin: Administrador
     name: Nombre
     title: Título
