@@ -361,103 +361,103 @@ en:
       form_title: El formulario contiene
       group_path_title: Configuración del Grupo en el Curso
       noend: Sin fin
-      notifications_text: Your learners will receive a notification about this course.
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-      schedule_path: Schedule a course
-      schedule_path_text_1: Courses are generally always available to your academy.
-      schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
-      sending_notification: You will be sending a notification to
-      title_1: Add lesson
-      title_2: Group course settings
+      notifications_text: Tus estudiantes recibirán una notificación de este curso.
+      only_assigned: Únicamente miembros asignados
+      path_collaboration: Colaboración del curso
+      path_collaboration_text: Permitir a los/las estudiantes añadir lecciones al curso.
+      person_space: personas en tu academia.
+      schedule_path: Programa un curso
+      schedule_path_text_1: Los cursos generalmente están siempre disponibles para tu academia.
+      schedule_path_text_2: Con esta configuración, puede programar cursos para que estén disponibles
+        solo un cierto período de tiempo.
+      sending_notification: Enviarás una notificación a
+      title_1: Añadir lección
+      title_2: Configuración del grupo en el curso
     index:
-      assigned: Assigned to me
+      assigned: Asignado a mí
     review:
-      all_learners: All learners
-      assign_users: Assign users
-      assign_users_text: You can assign individual users who will be able to see the
-        course and are notified about the course.
-      change_timezone: Change your time zone here
-      currently_in: You are currently in
-      find_learners: Find learners
-      form_title: The form contains
-      notifications_text: Your learners will receive a notification about this course.
-      only_assigned: Only assigned members
-      open-ended: Open-ended
-      person_space: Persons
-      save_draft: Save as draft
-      schedule_path: Schedule course
-      schedule_path_text_1: Courses are generally always available to your academy.
-      schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
-      sending_notification: You will be sending a notification to
-      title: Configure course
+      all_learners: Todos los estudiantes
+      assign_users: Asignar usuarios
+      assign_users_text: Puedes asignar usuarios individuales que podrán ver el
+        curso y reciben notificaciones sobre el curso.
+      change_timezone: Cambia tu zona horaria aquí
+      currently_in: Ahora mismo estas en
+      find_learners: Encontrar estudiantes
+      form_title: El formulario contiene
+      notifications_text: Tus estudiantes recibirán notificaciones de este curso.
+      only_assigned: Únicamente miembros asignados
+      open-ended: Abierto
+      person_space: Personas
+      save_draft: Guardar como borrador
+      schedule_path: Programar curso
+      schedule_path_text_1: Los cursos están generalmente siempre disponibles para tu academia.
+      schedule_path_text_2: Con esta configuración, puede programar cursos para que estén disponibles
+        únicamente por un cierto periodo de tiempo.
+      sending_notification: Enviarás una notificación a
+      title: Configurar curso
     preview:
-      edit: Edit Course
+      edit: Editar curso
     show:
-      add_item: Add at least one lesson
-      course_details: Course Details
-      edit: Edit
-      enter_emails: Enter emails here
-      invitations_sent: Invitations sent to
-      invite: Invite
-      invite_learners: Invite learners
-      invite_learners_text: The learners will be invited and assigned to this course.
-      learners: learners.
-      no_items: There are no lessons yet.
-      path_published: Course was successfully published.
-      send_invitations: Send invitations
+      add_item: Añadir al menos una lección
+      course_details: Detalles del curso
+      edit: Editar
+      enter_emails: Introducir direcciones de correo electrónico aquí
+      invitations_sent: Invitaciones enviadas a
+      invite: Invita
+      invite_learners: Invitar a estudiantes
+      invite_learners_text: Los estudiantes serán invitados y asignados a este curso.
+      learners: estudiantes.
+      no_items: Todavía no hay lecciones.
+      path_published: El curso ha sido publicado con éxito.
+      send_invitations: Enviar invitaciones
     show_share:
       sharelink:
-        button: Copy
-        title: Share this link
+        button: Copiar
+        title: Compartir este enlace
     templates:
-      create_template: Create from template
-      title: Templates
-      view_original: View original course
+      create_template: Crear desde una plantilla
+      title: Plantillas
+      view_original: Ver curso original
   questions:
     shared:
-      correct: Correct answer!
-      incorrect: Incorrect!
-      correct_text: 'The correct answer is option:'
-      multiple: Multiple choice question
-      submit: Submit
+      correct: ¡Respuesta correcta!
+      incorrect: ¡Incorrecto!
+      correct_text: 'La respuesta correcta es la opción:'
+      multiple: Pregunta de múltiples elecciones
+      submit: Enviar
       answer: Check for correct answer
     _option_fields:
-      option: Option
-      answer: Check answer
+      option: Opción
+      answer: Comprueba la respuesta
     _question_form:
-      add_option: Add option
-      ask_question: Ask a question...
-      save_options: Save options
+      add_option: Añadir opción
+      ask_question: Has unz pregunta...
+      save_options: Guardar opciones
     _view_question:
-      title: Quiz Question
+      title: Pregunta de Prueba
     modal_failure:
-      try_again: You can try again!
+      try_again: ¡Prueba de nuevo!
   profiles:
     shared:
-      email: Enter an email address
-      locale: Language
-      name: Enter your name
-      position: Enter your position
+      email: Introduce una dirección de correo electrónico
+      locale: Idioma
+      name: Introduce tu nombre
+      position: Introduce tu cargo
     _profile_navigation:
-      overview: Overview
+      overview: Vista general
   users:
     shared:
-      password: Password
-      new_password: New Password
-      confirm_new_password: Confirm New Password
-      confirm_password: Confirm Password
-      enter_name: Enter your name
-      enter_password: Enter your password
-      password_confirmation: Enter the password again
-      password_reset: Password reset
-      enter_email: Enter your e-mail address
-      remember: Remember me
-      password_text: Your password should be at least 6 characters long (and contain numbers and special characters for additional security)
+      password: Contraseña
+      new_password: Nueva contraseña
+      confirm_new_password: Confirma tu nueva contraseña
+      confirm_password: Confirma tu contraseña
+      enter_name: Introduce tu nombre
+      enter_password: Introduce tu contraseña
+      password_confirmation: Introduce de nuevo tu contraseña
+      password_reset: Reiniciar contraseña
+      enter_email: Introduce tu dirección de correo electrónico
+      remember: Recuérdame
+      password_text: Su contraseña debe tener al menos 6 caracteres (y contener números y caracteres especiales para mayor seguridad)
       _links:
         forgot: ¿Has olvidado tu contraseña?
     profiles:
