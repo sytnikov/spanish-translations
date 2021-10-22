@@ -100,7 +100,7 @@ en:
         topic8: Branding personalizado
         topic9: Certificados
         topic10: Grupos
-        topic11: Multiples lenguajes
+        topic11: Múltiples lenguajes
         topic12: Todas las lecciones en un lugar/vista de lecciones
         topic13: Perfiles de usuario
         topic14: Clonar lecciones
@@ -125,7 +125,7 @@ en:
         form:
           placeholder: ejemplo.tudominio.tld
           submit: Guardar dominio personalizado
-          subtext: 'Por favor introduce tu (sub)dominio personalizado sin http:// o https://. Tu dominio será automáticamente seguro por SSL. Los cambios de DNS pueden llevar hasta 24 horas hasta que se vean reflejados'
+          subtext: 'Por favor introduce tu (sub)dominio personalizado sin http:// o https://. Tu dominio será automáticamente seguro por SSL. Los cambios de DNS pueden tardar hasta 24 horas hasta que se vean reflejados'
         subtitle: Establece un dominio personalizado para tu academia
         text_html: "Tu academia estará disponible en %{url} y <span class='font-weight-bold'>custom
           domain</span> elige aquí:"
@@ -214,7 +214,7 @@ en:
       video_description: Integración de vídeo inmersivo
       pdf_description: Carga o enlaza un archivo
       text_description: Texto de informe con estilo
-      embed_description: Incrustar el contenido que quieras
+      embed_description: Incrusta el contenido que quieras
       quiz_description: Da opciones de borrado
     index:
       all: Todo
@@ -326,7 +326,7 @@ en:
     _modal_path_settings:
       # Parte de las cadenas de esta página están vinculadas a las rutas/editar
       assign_groups: Asignar grupos
-      assign_groups_text: También puedes asignar grupos de alumnos/as creados previamente en el entorno de administración.
+      assign_groups_text: También puedes asignar grupos de estudiantes creados previamente en el entorno de administración.
       currently_in: Actualmente estás en la zona horaria de %{timezone}
       design_description: Diseñar
       design_title: Cambiar el diseño de tu modo de aprendizaje
@@ -381,7 +381,7 @@ en:
       assign_users_text: Puedes asignar usuarios individuales que podrán ver el
         curso y reciben notificaciones sobre el curso.
       change_timezone: Cambia tu zona horaria aquí
-      currently_in: Ahora mismo estas en
+      currently_in: Ahora mismo estás en
       find_learners: Encontrar estudiantes
       form_title: El formulario contiene
       notifications_text: Tus estudiantes recibirán notificaciones de este curso.
@@ -425,7 +425,7 @@ en:
       correct_text: 'La respuesta correcta es la opción:'
       multiple: Pregunta de múltiples elecciones
       submit: Enviar
-      answer: Check for correct answer
+      answer: Comprueba la respuesta correcta
     _option_fields:
       option: Opción
       answer: Comprueba la respuesta
@@ -477,7 +477,7 @@ en:
       edit:
         consent_text_html: Al continuar, estarás de acuerdo con nuestros %{terms}.
         submit_button: Guardar mi contraseña
-        subtitle_html: Vas a usar tu dirección de correo electrónico (<strong>%{email}</strong>) y una contraseña para resgistrate en tu academia de Marble.
+        subtitle_html: Vas a usar tu dirección de correo electrónico (<strong>%{email}</strong>) y una contraseña para registrate en tu academia de Marble.
         title: Unirse a %{tenant}
     mailer:
       invitation_instructions:
@@ -485,7 +485,7 @@ en:
         cta: Únete Ahora
         title: Únete %{tenant} a Marble
       reset_password_instructions:
-        body: 'Nos has comunicado que quitáramos tu contraseña. Si realmente lo hiciste, haz clic aquí
+        body: 'Nos has comunicado que cambiáramos tu contraseña. Si fue así, haz clic aquí
           para elegir una nueva:'
         cta: Elegir una Nueva Contraseña
         hint: "¿No funciona el botón “Elegir una Nueva Contraseña”?"
@@ -540,7 +540,7 @@ en:
     save_changes: Guardar cambios
     sign_in: Registrarse
     sign_up: Inscribirse
-    sign_out: Sign out
+    sign_out: Desconectar
     sure: ¿Estas seguro/a?
     active: Activo
     inactive: Inactivo
@@ -578,7 +578,7 @@ en:
     time_spent: Tempo utilizado
     last_seen: Última vez visto
     completed: Completado
-    completion: Terminación
+    completion: Finalización
     satisfaction: Satisfacción
     avg_satisfaction: Satisfacción media
     actions: Acciones
@@ -587,8 +587,8 @@ en:
     admins: Administradores
     creator: Creador
     creators: Creadores
-    learner: Alumno/a
-    learners: Alumnos/as
+    learner: Estudiante
+    learners: Estudiantes
     certificate: Certificado
     certificates: Certificados
     question: Preguntas
