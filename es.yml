@@ -2,52 +2,52 @@
 es:
   activerecord: #translate
     models:
-      answer: Answer
-      certificate: Certificate
-      certificate_template: Certificate Template
-      feature: Feature
-      goal: Goal
-      group: Group
-      integration: Integration
-      item: Lesson
-      option: Option
-      path: Course
-      payment: Payment
+      answer: Respuesta
+      certificate: Certificado
+      certificate_template: Plantilla de certificado
+      feature: Característica
+      goal: Meta
+      group: Grupo
+      integration: Integración
+      item: Lección
+      option: Opción
+      path: Curso
+      payment: Pago
       plan: Plan
-      question: Question
-      skill: Tag
-      tenant: Academy
-      theme: Theme
-      user: User
+      question: Pregunta
+      skill: Etiqueta
+      tenant: Academia
+      theme: Tema
+      user: Usuario
     attributes:
       certificate:
-        date_issued: Date issued
-        status: Status
+        date_issued: Fecha de expedición
+        status: Posición
       certificate_template: #translate
-        course_description: Course description
-        brand_logo: Brand logo
-        signature: Signature
-        printed_name: "Printed name"
-        printed_position: "Printed position"
-        minimum_level: "Minimum level to issue"
-        automatically_issued: "Automatically issued"
+        course_description: Descripción del curso
+        brand_logo: Logo de marca
+        signature: Firma
+        printed_name: "Nombre impreso"
+        printed_position: "Posición impresa"
+        minimum_level: "Nivel mínimo para expedir"
+        automatically_issued: "Expedido automáticamente"
       groups:
-        name: Name
+        name: Nombre
       items:
-        attachment: Attachment
+        attachment: Adjunto
       path:
-        banner: Cover image
-        background_image: Background image
-        free: Free
-        subscription: Subscription
-        one-time: One-time
+        banner: Imagen de cubierta
+        background_image: Imagen de fondo
+        free: Gratis
+        subscription: Suscripción
+        one-time: Una vez
       tenants:
-        subdomain: Subdomain
-        password: Password
+        subdomain: Subdominio
+        password: Contraseña
       themes:
-        brand_logo: Brand logo
-        background_image: Background image
-        course_background: Course background
+        brand_logo: Logo de marca
+        background_image: Imagen de fondo
+        course_background: Imagen del curso
       user:
         avatar: Avatar
   admin:
@@ -55,7 +55,7 @@ es:
       index:
         total_views: Vistas Totales
         lesson_title: Título de la lección
-        in_minutes: "(in minutes)" #translate
+        in_minutes: "(en minutos)" #translate
     paths:
       certificates_tab:
         completed: Lecciones Completadas
@@ -73,13 +73,13 @@ es:
         completed: Lecciones Completadas
         details: Detalles
       update: #translate
-        updated: "Course was successfully updated."
-        error: "Sorry, something went wrong when updating."
+        updated: "El curso se ha actualizado satisfactoriamente."
+        error: "Lo sentimos; algo ha fallado durante la actualización"
       destroy: #translate
-        destroyed: "Course was successfully destroyed."
+        destroyed: "El curso ha sido eliminado satisfactoriamente"
       sales: #translate
-        active_subscriber: "active subscriber"
-        active_subscribers: "active subscribers"
+        active_subscriber: "suscriptor activo"
+        active_subscribers: "suscriptores activos"
       edit_payment: #translate
         currency_hint: "You are using %{name} (%{code}) as your default currency."
         change_currency: "Change currency"
