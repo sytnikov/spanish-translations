@@ -81,8 +81,8 @@ es:
         active_subscriber: "suscriptor activo"
         active_subscribers: "suscriptores activos"
       edit_payment: #translate
-        currency_hint: "You are using %{name} (%{code}) as your default currency."
-        change_currency: "Change currency"
+        currency_hint: "Estás utilizando %{name} (%{code}) como moneda por defecto."
+        change_currency: "Cambiar moneda"
     users:
       index:
         banner_button: Cambiar la política de acceso
@@ -96,16 +96,16 @@ es:
           button: Copiar
           title: O comparte este enlace
         lesson: #translate
-          zero: Lesson
-          one: Lesson
-          other: Lessons
-        last_viewed: "Last viewed:" #translate
+          zero: Lección
+          one: Lección
+          other: Lecciones
+        last_viewed: "Visto por última vez:" #translate
       change_role: #translate
-        one_admin: "You need at least one administrator."
-        admin_limit: "You've reached your limit of admins. Consider upgrading your plan at Admin > Billing."
-        not_valid: "This is not a valid role."
+        one_admin: "Necesitas al menos un administrador."
+        admin_limit: "Has alcanzado tu límite de administradores. Considera actualizar tu plan en Administración > Facturación."
+        not_valid: "Estes no es un rol válido."
       helper: #translate
-        active: "Active"
+        active: "Activo"
         invitated: "Invitation Pending"
     items: #translate
       completed: Completado
