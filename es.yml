@@ -278,13 +278,13 @@ es:
         language: "Idioma"
         access_policy: "Política de acceso"
       update: #translate
-        updated: "The academy was successfully updated."
-        new_currency: "You've set a new default currency. Now, you can go to the Sales page to set prices and billing options for each course."
+        updated: "La academia ha sido actualizada satisfactoriamente."
+        new_currency: "Has configurado la nueva moneda por defecto. Ahora puedes ir a la página de ventas para establecer las opciones de precios y facturación en cada curso."
       change_favicon: #translate
-        updated: "Favicon successfully updated."
-        not_updated: "Favicon cannot be updated."
+        updated: "El FAvicon se ha actualizado satisfactoriamente."
+        not_updated: "El Favicon no ha podido ser actualizado."
       remove_favicon: #translate
-        deleted: "Favicon deleted successfully."
+        deleted: "El Favicon se ha borrado satisfactoriamente."
     themes:
       background_image: Imagen de fondo
       bg_instructions: 'Tamaño máximo: 3000 x 1000 px'
@@ -300,7 +300,7 @@ es:
       course_design: Diseño del curso
       course_design_subtitle: Diseño del subtítulo del curso
       delete_image: #translate
-        not_deleted: "Sorry, we couldn't delete this image."
+        not_deleted: "Lo siento, no podemos borrar esta imagen."
       go_to: Ir a la configuración de temas
       images: Imágenes
       images_subtitle: Personaliza las imágenes que se muestran en tu academia.
@@ -311,17 +311,17 @@ es:
       title: Configuración del tema
       title_color: Color del título de la página principal
       create: #translate
-        updated: "Theme was successfully updated."
+        updated: "El tema se ha actualizado satisfactoriamente."
       destroy: #translate
-        destroyed: "Theme was successfully destroyed."
+        destroyed: "El tema se ha eliminado satisfactoriamente."
     certificates: #translate
       create:
-        created: "The certificate was created."
-        error: "There was error when creating the certificate."
+        created: "El certificado se ha creado."
+        error: "Ha habido un error al crear el certificado."
       view_pdf: #translate
-        title: "Certificate of Completion"
-        was_awarded: "was awarded at %{date} to"
-        for_completing: "for completing the course"
+        title: "Certificado de finalización"
+        was_awarded: "ha sido concedido el %{date} a"
+        for_completing: "por completar el curso"
     tags: #translate
       destroy:
         destroyed: "Tag was successfully deleted."
