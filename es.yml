@@ -103,14 +103,14 @@ es:
       change_role: #translate
         one_admin: "Necesitas al menos un administrador."
         admin_limit: "Has alcanzado tu límite de administradores. Considera actualizar tu plan en Administración > Facturación."
-        not_valid: "Estes no es un rol válido."
+        not_valid: "Este no es un rol válido."
       helper: #translate
         active: "Activo"
-        invitated: "Invitation Pending"
+        invitated: "Invitación pendiente"
     items: #translate
       completed: Completado
       destroy: #translate
-        destroyed: "Lesson was successfully deleted."
+        destroyed: "La lección ha sido borrada satisfactoriamente."
     groups:
       index:
         members: Miembros
@@ -130,11 +130,11 @@ es:
         modal_form_users_placeholder: Seleccionar usuarios
         modal_title: Actualizar grupo
       create: #translate
-        created: "Group was successfully created."
+        created: "El grupo ha sido creado satisfactoriamente."
       update: #translate
-        updated: "Group was successfully updated."
+        updated: "El grupo ha sido actualizado satisfactoriamente."
       destroy: #translate
-        destroyed: "Group was successfully deleted."
+        destroyed: "El grupo ha sido eliminado satisfactoriamente."
     certificate_templates:
       index:
         issue_config: Problema de configuración
@@ -146,23 +146,23 @@ es:
         edit: Editar plantilla
         create: Crear plantilla
       update: #translate
-        updated: "The certificate template was successfully updated."
+        updated: "La plantilla del certificado ha sido creada satisfactoriamente."
       edit: #translate
-        subtitle_html: "Edit certificates for the course <strong>%{course}</strong>."
-        change_logo: "Change logo"
-        upload_logo: "Upload logo"
-        file_recommendations: "We recommend using a PNG file with transparency. Maximum size: 1200 x 600px."
-        change_signature: "Change signature"
-        upload_signature: "Upload signature"
-        automatic_hint: "If you set this as automatic, certificates will be issued after the learner reaches a minimum level to issue, which you can setup below."
+        subtitle_html: "Editar certificados para el curso <strong>%{course}</strong>."
+        change_logo: "Cambiar logo"
+        upload_logo: "Subir logo"
+        file_recommendations: "Recomendamos usar un archivo PNG con fondo transparente. Tamaño máximo: 1200 x 600px."
+        change_signature: "Cambiar firma"
+        upload_signature: "Subir firma"
+        automatic_hint: "Si pones esto como automático, los certificados se emitirán después de que el estudiante alcance un nivel mínimo para la emisión. Lo puedes configurar debajo."
     layouts: #translate
       application:
         workspace: Regresar a la Academia
-        marble_academy: "💎 Marble Academy"
-        help_center: "📚 Help Center"
-        facebook: "👍 Facebook Group"
-        feature_request: "👾 Feature request"
-        contact_support: "💬 Contact support"
+        marble_academy: "💎 Academia Marble"
+        help_center: "📚 Centro de Ayuda"
+        facebook: "👍 Grupo de Facebook"
+        feature_request: "👾 Pedir característica"
+        contact_support: "💬 Contactar con soporte"
     questions:
       show:
         col:
