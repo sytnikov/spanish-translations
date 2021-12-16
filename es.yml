@@ -172,7 +172,7 @@ es:
         completed: Completado
         title: Título
       destroy: #translate
-        destroyed: "Question was successfully deleted."
+        destroyed: "La pregunta ha sido borrada satisfactoriamente."
     plans:
       index:
         manage: Gestiona tu plan
@@ -204,17 +204,17 @@ es:
         topic13: Perfiles de usuario
         topic14: Clonar lecciones
         topic15: Colaboradores del curso
-        manage_subscription: "Manage Subscription" #translate
-        unlimited_academies: "Unlimited academies" #translate
-        unlimited_active_courses: "Unlimited active courses" #translate
-        active_courses: "active courses" #translate
-        custom_plan_offer: "Didn't find the ideal plan? Contact us so that we can customize it for you." #translate
-        expires_at: "Expires at %{date}"
-      payment_confirmed: "The payment was confirmed and you new plan is already available. That means you can start using all the features right away." #translate
-      hope_you_enjoy: "We hope you enjoy your experience and that you can use Marble to leverage your business and engage your customers. Feel free to contact us for support, when you need." #translate
-      lets_start: "Let's start" #translate
-      error_restart: "You can restart the process to subscribe to the plan." #translate
-      error_customer_portal: "Sorry, we had a problem connecting your Stripe account. Please, contact our support"
+        manage_subscription: "Administrar suscripción" #translate
+        unlimited_academies: "Academias ilimitadas" #translate
+        unlimited_active_courses: "Cursos activos ilimitados" #translate
+        active_courses: "Cursos activos" #translate
+        custom_plan_offer: "¿No encuentras tu plan ideal? Contacta con nosotros y lo personalizaremos para ti." #translate
+        expires_at: "Caduca en %{date}"
+      payment_confirmed: "El pago ha sido confirmado y el nuevo plan ya se encuentra disponible, lo que significa que puedes utilizar todas las nuevas funciones ahora mismo." #translate
+      hope_you_enjoy: "Esperamos que disfrutes de la experiencia y puedas sacar el máximo rendimiento a tu negocio, y mejorar el nivel de compromiso con tus clientes. No dudes en contactarnos para poder apoyarte cuando lo necesites." #translate
+      lets_start: "Empecemos" #translate
+      error_restart: "Puedes reniciar el proceso para suscribirte al plan." #translate
+      error_customer_portal: "Lo siento hemos tenido un problema conectando con tu cuenta de Stripe. Por favor, contacta con nuestro serivicio de soporte"
     tenants:
       edit:
         name: Nombre de la academia
