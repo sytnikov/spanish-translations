@@ -352,7 +352,7 @@ es:
     cancel_subscription: #translate
       canceled: "Tu suscripción ha sido cancelada."
       error: "Algo ha fallado y no hemos podido cancelar tu suscripción"
-    purchase_confirmation: "Confimración de compra" #translate
+    purchase_confirmation: "Confirmación de compra" #translate
     create:
       unable_to_proceed: "No se ha podido procesar. La academia está desconectada del sistema de pago. Por favor, contacta con soporte."
   items:
@@ -361,7 +361,7 @@ es:
     delete: Borrar Lección
     add: Añadir Lección
     create: #translate
-      created: "Lesson was successfully created."
+      created: "La lección se ha creado satisfactoriamente."
     save: Guardar Lección
     add_question: Añadir Pregunta
     choose_file: Elegir un archivo
@@ -378,28 +378,28 @@ es:
       text_description: Texto de informe con estilo
       embed_description: Incrusta el contenido que quieras
       quiz_description: Da opciones de borrado
-      title_goes_here: "Title goes here"
-      description_goes_here: "Description goes here"
-      learn_more: "Learn more about how to create a course"
-      content: "Content"
-      not_saved: "%{error} prohibited this item from being saved:"
-      paste_or_type: "Paste or type a link"
-      learn: "Learn more"
-      pdf_link_html: "Add a <span class='font-weight-bold'>PDF</span> by link:"
-      pdf_explanation_html: "PDFs can only be shown with links ending in <span class='font-italic'>'.pdf'</span>. For other PDFs please use the upload below."
-      video_explanation_html: "Use videos from <span class='font-weight-bold'>YouTube</span>, <span class='font-weight-bold'>Vimeo</span>, <span class='font-weight-bold'>Wistia</span>, <span class='font-weight-bold'>Loom</span> and many other video hosting platforms."
-      embed_content_html: "Embed content <span class='font-weight-bold'>by link</span>:"
-      embed_explanation_html: "Enter a valid <span class='font-weight-bold'>iframe</span> or <span class='font-weight-bold'>embed code</span> from your favorite tools, e.g. Miro, Trello or Figma."
-      upload_pdf_html: "or <span class='font-weight-bold'>upload a PDF</span> file from your computer:"
-      about_questions: "about how to add your questions."
+      title_goes_here: "El título se situa aquí"
+      description_goes_here: "La descripción se situa aquí"
+      learn_more: "Aprende algo más sobre cómo crear un curso"
+      content: "Contenido"
+      not_saved: "%{error} ha prohbido que este artículo se pudiera guardar:"
+      paste_or_type: "Pega o escribe un enlace"
+      learn: "Aprende más"
+      pdf_link_html: "Añadir un <span class='font-weight-bold'>PDF</span> con un enlace:"
+      pdf_explanation_html: "Los PDF solo se pueden mostrar con enlaces que finalicen en <span class='font-italic'>'.pdf'</span>. Para otros PDF, por favor, utiliza el servicio de subida que se encuentra debajo."
+      video_explanation_html: "Utiliza vídeos desde <span class='font-weight-bold'>YouTube</span>, <span class='font-weight-bold'>Vimeo</span>, <span class='font-weight-bold'>Wistia</span>, <span class='font-weight-bold'>Loom</span> y muchas otras plataformas de vídeo."
+      embed_content_html: "Incrusta el cotenido <span class='font-weight-bold'>by link</span>:"
+      embed_explanation_html: "Introduce una válida <span class='font-weight-bold'>iframe</span> o <span class='font-weight-bold'>código incrustado</span> desde tus herramientas favoritas, por ejemplo: Miro, Trello o Figma."
+      upload_pdf_html: "o <span class='font-weight-bold'>sube un archivo PDF</span> desde tu ordenador:"
+      about_questions: "Información sobre cómo añadir tus preguntas."
     index:
       all: Todo
       reset: Reiniciar
       tag: Seleccionar una etiqueta
-      create: "Add new lesson" #translate
+      create: "Añadir nueva lección" #translate
     myitem:
       answer: Ver respuesta
-      back: 'Back to:'
+      back: 'Regresar a:'
       complete: Completo
       completed: Completado
       contents: Lecciones
@@ -423,13 +423,13 @@ es:
     show:
       link: Visitar enlace
     myitem_show: #translate
-      needs_sign_in: "You need to sign in or sign up before continuing."
-      not_enrolled: "Not enrolled in this path yet."
+      needs_sign_in: "Necesitas registrarte o inscribirte antes de continuar."
+      not_enrolled: "Aún no está inscrito en esta trayectoria."
     create_advanced: #translate
-      updated: "Lesson was successfully updated."
+      updated: "La lección ha sido actualizada satisfactoriamente."
     _configuration_navbar: #translate
-      all_courses: "All Courses"
-      publish: "Publish"
+      all_courses: "Todos los cursos"
+      publish: "Publicar"
   layouts:
     _navbar:
       account_question: ¿Tienes una cuenta?
@@ -441,7 +441,7 @@ es:
       my_settings: Mi configuración
       support: Soporte
       templates: Plantillas
-      upgrade_plan: "Upgrade Plan!"
+      upgrade_plan: "¡Mejora el plan!"
     _navbar_tenants:
       account_question: ¿Tienes una cuenta?
   notification_mailer:
@@ -450,7 +450,7 @@ es:
       sign_in: Iniciar sesión
       workspace_name: Nombre de la academia
       workspace_url: URL de la academia
-      subject: "[Marble] Notifications from %{tenant}" #translate
+      subject: "[Marble] Notificaciones de %{tenant}" #translate
   paths:
     shared:
       choose_file: Elegir un archivo
@@ -480,9 +480,9 @@ es:
       expired: Caducado
       edit_path: Editar el curso
       subscribe: Suscribir #translate
-      subscribe_for: Subscribir por #translate
-      buy_course: Comprar #translate
-      buy_for: Comprar por #translate
+      subscribe_for: Suscribir para #translate
+      buy_course: Comprar curso #translate
+      buy_for: Comprar para #translate
     show_settings:
       delete_image: Borrar imagen
       restore_image: Recuperar por defecto
@@ -563,8 +563,8 @@ es:
       sending_notification: Enviarás una notificación a
       title_1: Añadir lección
       title_2: Configuración del grupo en el curso
-      needs_author: "You have to be the author to edit this path." #translate
-      needs_author_preview: "You have to be the author to preview this path." #translate
+      needs_author: "Tienes que ser el autor para editar esta trayectoria." #translate
+      needs_author_preview: "Tienes que ser el autor para previsualizar esta trayectoria." #translate
     index:
       assigned: Asignado a mí
     review:
@@ -602,7 +602,7 @@ es:
       no_items: Todavía no hay lecciones.
       path_published: El curso ha sido publicado con éxito.
       send_invitations: Enviar invitaciones
-      not_published: "This course is not published yet." #translate
+      not_published: "Este curso todavía no se ha publicado." #translate
     show_share:
       sharelink:
         button: Copiar
@@ -612,24 +612,24 @@ es:
       title: Plantillas
       view_original: Ver curso original
     create_from_template: #translate
-      created: "Course was successfully created from template."
+      created: "El curso ha sido creado satisfactoriamente desde la plantilla."
     restore_default_image: #translate
-      not_deleted: "We couldn't delete the background image."
+      not_deleted: "No hemos podido borrar la imagen de fondo."
     publish: #translate
-      published: "Course was successfully published."
-      limit: "You've reached the limit of your plan. Consider upgrading your account at Admin > Billing."
+      published: "El curso ha sido publicado satisfactoriamente."
+      limit: "Has alcanzado el límite de tu plan. Considera mejorar tu cuenta en Administración > Facturación."
     update: #translate
-      updated: "Course was successfully updated."
-      settings_changed: "Course settings were successfully changed."
+      updated: "EL curso ha sido actualizado satisfactoriamente."
+      settings_changed: "Los ajustes del curso se han cambiado satisfactoriamente."
     add_existing_items: #translate
-      added: "Item was successfully added."
+      added: "El elemento ha sido añadido satisfactoriamente."
     remove_item: #translate
-      removed: "Lesson was successfully removed from course."
+      removed: "La lección ha sido eliminada del curso satisfactoriamente"
     update_cover: #translate
-      error: "There was an error with the updating the cover."
-    invite_user: "Learner was successfully invited!"
+      error: "Ha habido un error al actualizar la cubierta."
+    invite_user: "¡El estudiante ha sido invitado con éxito!"
     validations:
-      limit_mb: "is larger than 5MB" #translate
+      limit_mb: "es más grande que 5M" #translate
   questions:
     shared:
       correct: ¡Respuesta correcta!
@@ -638,14 +638,14 @@ es:
       multiple: Pregunta de múltiples elecciones
       submit: Enviar
       answer: Comprueba la respuesta correcta
-      created: "Question was successfully created." #translate
-      deleted: "Question was successfully deleted." #translate
+      created: "La pregunta ha sido creada con éxito." #translate
+      deleted: "La pregunta se ha borrado con éxito." #translate
     _option_fields:
       option: Opción
       answer: Comprueba la respuesta
     _question_form:
       add_option: Añadir opción
-      ask_question: Has unz pregunta...
+      ask_question: Haz una pregunta...
       save_options: Guardar opciones
     _view_question:
       title: Pregunta de Prueba
@@ -659,7 +659,7 @@ es:
       position: Introduce tu cargo
     _profile_navigation:
       overview: Vista general
-    updated: "User was successfully updated." #translate
+    updated: "El usuario ha sido actualizado satisfactoriamente." #translate
   users:
     shared:
       password: Contraseña
