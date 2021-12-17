@@ -324,13 +324,13 @@ es:
         for_completing: "por completar el curso"
     tags: #translate
       destroy:
-        destroyed: "Tag was successfully deleted."
+        destroyed: "La etiqueta ha sido borrada satisfactoriamente."
     integrations: #translate
       index:
-        stripe_description: "Integrate your Stripe account to your academy and start selling your courses to new learners."
-        mailchimp_description: "Automatically create a new Mailchimp contact whenever someone registers to your academy."
-        intercom_description: "Automatically create a new Intercom contact whenever someone registers to your academy."
-        hubspot_description: "Automatically create a new Hubspot contact whenever someone registers to your academy."
+        stripe_description: "Integra tu cuenta de Stripe a tu academia y empieza a vender tus cursos a nuevos alumnos."
+        mailchimp_description: "Crea un nuevo contacto de Mailchimp automáticamente cada vez que alguien se registra en tu academia."
+        intercom_description: "Crea un nuevo contacto de Intercom automáticamente cada vez que alguien se registra en tu academia."
+        hubspot_description: "Crea un nuevo contacto de Hubspot automáticamente cada vez que alguien se registra en tu academia."
   errors:
     messages:
       not_saved:
@@ -342,19 +342,19 @@ es:
       confirmation:
         title: ¡Tu nuevo viaje comienza ahora!
         payment_confirmed_html: El pago fue confirmado y tu nuevo curso ya está disponible. Eso significa que puedes <a href='%{link}'>empezar a aprender de inmediato</a>.
-        learning_metrics_html: Tú también puedes <a href='%{link}'>mantenerse al día con sus métricas de aprendizaje</a> en tu página de perfil.
+        learning_metrics_html: Tú también puedes <a href='%{link}'>mantenerte al día con las métricas de aprendizaje</a> en tu página de perfil.
         lets_start: "¡Empecemos!"
       error:
         title: Oops!
-        something_wrong: Hubo algún problema con su pago. Por favor, compruebe si la información proporcionada es correcta.
+        something_wrong: Hubo algún problema con su pago. Por favor, comprueba si la información proporcionada es correcta.
         restart: Puedes reiniciar el proceso de nuevo para acceder al curso.
         go_to_payment: Ir a pago
     cancel_subscription: #translate
-      canceled: "Your subscription was canceled."
-      error: "Something went wrong and we couldn't cancel your subscription."
-    purchase_confirmation: "Purchase confirmation" #translate
+      canceled: "Tu suscripción ha sido cancelada."
+      error: "Algo ha fallado y no hemos podido cancelar tu suscripción"
+    purchase_confirmation: "Confimración de compra" #translate
     create:
-      unable_to_proceed: "Unable to proceed. The academy is disconnected from the payment system. Please, contact support."
+      unable_to_proceed: "No se ha podido procesar. La academia está desconectada del sistema de pago. Por favor, contacta con soporte."
   items:
     update: Actualizar Lección
     edit: Editar Lección
