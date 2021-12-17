@@ -723,7 +723,7 @@ es:
       new:
         title: Registrarse en %{tenant}
     validations:
-      limit_mb: "is larger than 5MB" #translate
+      limit_mb: "es más grande que 5MB" #translate
   welcome:
     _modal_new_path:
       label:
@@ -740,10 +740,10 @@ es:
       label: Introduce la URL de tu academia
       placeholder: tu-equipo-url
       title: Regístrate en tu academia
-    create: "Welcome to your new space! Please, sign in to start using it." #translate
+    create: "¡Bienvenido/a a tu nuevo espacio! por favor, inicia sesión para empezar a utilizarlo." #translate
     find_team: #translate
-      not_found: "Academy not found."
-      enter_name: "Please Enter the Space Name."
+      not_found: "Academia no encontrada."
+      enter_name: "Por favor, introduce el nombre del espacio."
   global:
     back: Atrás
     cancel: Cancelar
@@ -824,20 +824,20 @@ es:
     integration: Integraciones
     integrations: Integraciones
     currency: Moneda
-    sso: "Single Sign-On" #translate
-    certificate_template: "Certificate Template" #translate
-    hi: "Hi" #translate
-    all_rights_reserved: "All rights reserved" #translate
-    thanks: "Thanks" #translate
-    ceo_and_founder: "CEO and founder of Marble" #translate
+    sso: "Inicio único de sesión" #translate
+    certificate_template: "Plantilla de certificado" #translate
+    hi: "Hola" #translate
+    all_rights_reserved: "Reservados todos los derechos" #translate
+    thanks: "Gracias" #translate
+    ceo_and_founder: "CEO y fundador de Marble" #translate
   certificates: #translate
-    issue_automatic_certificate: "Congratulations, you have a new certificate! You can view and download it from your profile page."
+    issue_automatic_certificate: "¡Felicidades, tienes un nuevo diploma! Lo puedes ver y descargar desde tu página de perfil."
   tenants: #translate
     create:
-      recaptcha: "reCAPTCHA Authorization Failed. Please try again."
+      recaptcha: "La autorización reCAPTCHA ha fallado. Por favor, prueba de nuevo."
     confirmation:
-      welcome: "Welcome to Marble! Your email has been confirmed. Please log in to continue."
-      tenant_doesnt_exist: "Sorry. Tenant does not exist."
+      welcome: "¡Bienvenido/a a Marble! Se ha confirmado tu email. Por favor, inicia sesión para continuar."
+      tenant_doesnt_exist: "Lo sentimos. El arrendatario no existe"
   certificate_mailer: #translate
     send_certificate:
       subject: "Congratulations %{user}, you've completed your %{path} course!"
@@ -909,22 +909,22 @@ es:
       limit_px2: "is larger than 3000 x 1000 pixels"
   payment: #translate
     currencies:
-      usd: "US dollar (USD)"
+      usd: "Dólar americano (USD)"
       eur: "Euro (EUR)"
-      aud: "Australian dollar (AUD)"
-      gbp: "British sterling (GBP)"
-      bgn: "Bulgarian lev (BGN)"
-      cad: "Canadian dollar (CAD)"
-      cny: "Chinese yuan renminbi (CNY)"
-      hrk: "Croatian kuna (HRK)"
-      czk: "Czech koruna (CZK)"
-      dkk: "Danish krone (DKK)"
-      hkd: "Hong Kong dollar (HKD)"
-      huf: "Hungarian forint (HUF)"
-      isk: "Icelandic krona (ISK)"
-      inr: "Indian rupee (INR)"
-      idr: "Indonesian rupiah (IDR)"
-      ils: "Israeli shekel (ILS)"
+      aud: "Dólar australiano (AUD)"
+      gbp: "Libra esterlina (GBP)"
+      bgn: "Lev búlgaro (BGN)"
+      cad: "Dólar canadiense (CAD)"
+      cny: "Yuan renminbi chino (CNY)"
+      hrk: "Kuna croata (HRK)"
+      czk: "Koruna checa (CZK)"
+      dkk: "Corona danesa (DKK)"
+      hkd: "Dólar de Hong Kong (HKD)"
+      huf: "Forinto húngaro (HUF)"
+      isk: "Corona islandesa (ISK)"
+      inr: "Rupia india (INR)"
+      idr: "Rupia indonesia (IDR)"
+      ils: "Shekel israelí (ILS)"
       jpy: "Japanese yen (JPY)"
       php: "Philippine peso (PHP)"
       mxn: "Mexican Peso (MXN)"
