@@ -962,40 +962,40 @@ es:
         one: "about 1 hour"
         other: "about %{count} hours"
       x_days:
-        one: "1 day"
-        other: "%{count} days"
+        one: "1 día"
+        other: "%{count} días"
       about_x_months:
-        one: "about 1 month"
-        other: "about %{count} months"
+        one: "aproximadamente 1 mes"
+        other: "aproximadamente %{count} meses"
       x_months:
-        one: "1 month"
-        other: "%{count} months"
+        one: "1 mes"
+        other: "%{count} meses"
       about_x_years:
-        one: "about 1 year"
-        other: "about %{count} years"
+        one: "aproximadamente 1 año"
+        other: "aproximadamente %{count} años"
       over_x_years:
-        one: "over 1 year"
-        other: "over %{count} years"
+        one: "más de 1 año"
+        other: "más de %{count} años"
       almost_x_years:
-        one: "almost 1 year"
-        other: "almost %{count} years"
+        one: "casi 1 año"
+        other: "casi %{count} años"
     prompts:
-      year: "Year"
-      month: "Month"
-      day: "Day"
-      hour: "Hour"
-      minute: "Minute"
-      second: "Seconds"
-  pending: "Pending"
-  profile_page: "profile page" #translate
-  visit_academy: "Visit Academy" #translate
+      year: "Año"
+      month: "Mes"
+      day: "Día"
+      hour: "Hora"
+      minute: "Minuto"
+      second: "Segundo"
+  pending: "Pendiente"
+  profile_page: "Página de perfil" #translate
+  visit_academy: "Visita la Academia" #translate
   invitation_mailer: #translate
     invitation_instructions:
-      someone_invited_you: "%{sender} has invited you to use %{tenant}'s Academy. Use the button below to set up your account and get started:"
-      action_text: "Set up account"
-      welcome_aboard: "Welcome aboard"
-      if_trouble: "If you’re having trouble with the button above, copy and paste the URL below into your web browser."
-      mail_subject: "%{sender} invited you to %{tenant}'s Academy"
+      someone_invited_you: "%{sender} te ha invitado a utilizar la academia %{tenant}. Utiliza el botón que está debajo para configurar tu cuenta y empezar:"
+      action_text: "Configurar cuenta"
+      welcome_aboard: "Bienvenido/a"
+      if_trouble: "Si estás teniendo problemas con el botón de arriba, copia y pega el enlace situado debajo en tu navegador."
+      mail_subject: "%{sender} te ha invitado a la acedemia %{tenant}"
       contact_support1: "Contacta cuando lo necesites con nuestro"
       contact_support2: "equipo de soporte técnico"
       contact_support3: "si tienes cualquier problema técnico. (somos rapidísimos respondiendo.)"
