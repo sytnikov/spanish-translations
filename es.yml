@@ -3,8 +3,8 @@ es:
   activerecord: #translate
     models:
       answer: Respuesta
-      certificate: Certificado
-      certificate_template: Plantilla de certificado
+      certificate: Diploma
+      certificate_template: Plantilla de diploma
       feature: Característica
       goal: Meta
       group: Grupo
@@ -59,7 +59,7 @@ es:
     paths:
       certificates_tab:
         completed: Lecciones Completadas
-        status: Estado de los certificados
+        status: Estado de los diplomas
         issued: Emitido
         pending: Pendiente
         automatic: Automáticamente
@@ -146,15 +146,15 @@ es:
         edit: Editar plantilla
         create: Crear plantilla
       update: #translate
-        updated: "La plantilla del certificado ha sido creada satisfactoriamente."
+        updated: "La plantilla del diploma ha sido creada satisfactoriamente."
       edit: #translate
-        subtitle_html: "Editar certificados para el curso <strong>%{course}</strong>."
+        subtitle_html: "Editar diplomas para el curso <strong>%{course}</strong>."
         change_logo: "Cambiar logo"
         upload_logo: "Subir logo"
         file_recommendations: "Recomendamos usar un archivo PNG con fondo transparente. Tamaño máximo: 1200 x 600px."
         change_signature: "Cambiar firma"
         upload_signature: "Subir firma"
-        automatic_hint: "Si pones esto como automático, los certificados se emitirán después de que el estudiante alcance un nivel mínimo para la emisión. Lo puedes configurar debajo."
+        automatic_hint: "Si dejas esto como automático, los certificados se emitirán después de que el estudiante alcance un nivel mínimo para la emisión. Lo puedes configurar debajo."
     layouts: #translate
       application:
         workspace: Regresar a la Academia
@@ -210,18 +210,18 @@ es:
         active_courses: "Cursos activos" #translate
         custom_plan_offer: "¿No encuentras tu plan ideal? Contacta con nosotros y lo personalizaremos para ti." #translate
         expires_at: "Caduca en %{date}"
-      payment_confirmed: "El pago ha sido confirmado y el nuevo plan ya se encuentra disponible, lo que significa que puedes utilizar todas las nuevas funciones ahora mismo." #translate
+      payment_confirmed: "El pago ha sido confirmado y el nuevo plan ya se encuentra disponible, de modo que puedes utilizar todas las nuevas funciones ahora mismo." #translate
       hope_you_enjoy: "Esperamos que disfrutes de la experiencia y puedas sacar el máximo rendimiento a tu negocio, y mejorar el nivel de compromiso con tus clientes. No dudes en contactarnos para poder apoyarte cuando lo necesites." #translate
       lets_start: "Empecemos" #translate
       error_restart: "Puedes reniciar el proceso para suscribirte al plan." #translate
-      error_customer_portal: "Lo siento hemos tenido un problema conectando con tu cuenta de Stripe. Por favor, contacta con nuestro serivicio de soporte"
+      error_customer_portal: "Lo siento hemos tenido un problema conectando con tu cuenta de Stripe. Por favor, contacta con nuestro servicio de soporte"
     tenants:
       edit:
         name: Nombre de la academia
         name_placeholder: Introduce tu nombre de equipo o compañía
         welcome_subtitle: Mensaje de bienvenida secundario
         welcome_title: Mensaje de bienvenida principal
-        whitelabel: Marca blanca
+        whitelabel: Marca propia
         whitelabel_checkbox: Quitar las firmas 'Powered by Marble'
         design_title: Diseño
         design_subtitle: Actualizar logo de marca, imágenes de fondo y colores utilizados en tu academia
@@ -246,7 +246,7 @@ es:
         label: Idioma
         subtitle: Cambiar el idioma en toda la academia.
       currency:
-        instructions: Cambie la moneda predeterminada para todos sus cursos. #translate
+        instructions: Cambiar la moneda predeterminada para todos sus cursos. #translate
       access_policy:
         action: Cambiar acceso
         modal:
@@ -281,7 +281,7 @@ es:
         updated: "La academia ha sido actualizada satisfactoriamente."
         new_currency: "Has configurado la nueva moneda por defecto. Ahora puedes ir a la página de ventas para establecer las opciones de precios y facturación en cada curso."
       change_favicon: #translate
-        updated: "El FAvicon se ha actualizado satisfactoriamente."
+        updated: "El Favicon se ha actualizado satisfactoriamente."
         not_updated: "El Favicon no ha podido ser actualizado."
       remove_favicon: #translate
         deleted: "El Favicon se ha borrado satisfactoriamente."
@@ -317,9 +317,9 @@ es:
     certificates: #translate
       create:
         created: "El certificado se ha creado."
-        error: "Ha habido un error al crear el certificado."
+        error: "Ha habido un error al crear el diploma."
       view_pdf: #translate
-        title: "Certificado de finalización"
+        title: "El diploma de finalización"
         was_awarded: "ha sido concedido el %{date} a"
         for_completing: "por completar el curso"
     tags: #translate
@@ -341,7 +341,7 @@ es:
       purchase_confirmation: Confirmación de compra
       confirmation:
         title: ¡Tu nuevo viaje comienza ahora!
-        payment_confirmed_html: El pago fue confirmado y tu nuevo curso ya está disponible. Eso significa que puedes <a href='%{link}'>empezar a aprender de inmediato</a>.
+        payment_confirmed_html: El pago fue confirmado y tu nuevo curso ya está disponible. Lo que significa que puedes <a href='%{link}'>empezar a aprender de inmediato</a>.
         learning_metrics_html: Tú también puedes <a href='%{link}'>mantenerte al día con las métricas de aprendizaje</a> en tu página de perfil.
         lets_start: "¡Empecemos!"
       error:
@@ -382,7 +382,7 @@ es:
       description_goes_here: "La descripción se situa aquí"
       learn_more: "Aprende algo más sobre cómo crear un curso"
       content: "Contenido"
-      not_saved: "%{error} ha prohbido que este artículo se pudiera guardar:"
+      not_saved: "%{error} ha prohibido que este artículo se pudiera guardar:"
       paste_or_type: "Pega o escribe un enlace"
       learn: "Aprende más"
       pdf_link_html: "Añadir un <span class='font-weight-bold'>PDF</span> con un enlace:"
@@ -508,7 +508,7 @@ es:
     _modal_add_question:
       add_option: Añadir opción
       ask_question: Haz una pregunta...
-      title: Pregunta con Múltiples elecciones
+      title: Pregunta con múltiples elecciones
     _modal_edit_item:
       title: Editar lección
     _modal_edit_question:
@@ -571,7 +571,7 @@ es:
       all_learners: Todos los estudiantes
       assign_users: Asignar usuarios
       assign_users_text: Puedes asignar usuarios individuales que podrán ver el
-        curso y reciben notificaciones sobre el curso.
+        curso y reciben notificaciones del curso.
       change_timezone: Cambia tu zona horaria aquí
       currently_in: Ahora mismo estás en
       find_learners: Encontrar estudiantes
@@ -619,7 +619,7 @@ es:
       published: "El curso ha sido publicado satisfactoriamente."
       limit: "Has alcanzado el límite de tu plan. Considera mejorar tu cuenta en Administración > Facturación."
     update: #translate
-      updated: "EL curso ha sido actualizado satisfactoriamente."
+      updated: "El curso ha sido actualizado satisfactoriamente."
       settings_changed: "Los ajustes del curso se han cambiado satisfactoriamente."
     add_existing_items: #translate
       added: "El elemento ha sido añadido satisfactoriamente."
@@ -677,7 +677,7 @@ es:
         forgot: ¿Has olvidado tu contraseña?
     profiles:
       certificates:
-        no_certificate: Aún no tienes ningún certificado emitido.
+        no_certificate: Aún no tienes ningún diploma emitido.
         date_issue: Fecha de la emisión
         view_pdf: Ver como PDF
       items:
@@ -813,8 +813,8 @@ es:
     creators: Creadores
     learner: Estudiante
     learners: Estudiantes
-    certificate: Certificado
-    certificates: Certificados
+    certificate: Diploma
+    certificates: Diplomas
     question: Preguntas
     questions: Preguntas
     settings: Ajustes
@@ -865,7 +865,7 @@ es:
       href3_text: "gestiona pagos y suscripciones"
   plan_mailer: #translate
     reminder_3_days:
-      subject: "Tu prueba vence en tres días"
+      subject: "Tu periodo de prueba vence en tres días"
     reminder_last_day:
       subject: "¡ %{user}, tenemos un plan para ti!"
     hope_you_liked: "Esperamos que te haya gustadio la experience con Marble."
@@ -945,22 +945,22 @@ es:
   # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
   datetime: #translate
     distance_in_words:
-      half_a_minute: "half a minute"
+      half_a_minute: "medio minuto"
       less_than_x_seconds:
-        one: "less than 1 second"
-        other: "less than %{count} seconds"
+        one: "menos de un segundo"
+        other: "menos de %{count} segundos"
       x_seconds:
-        one: "1 second"
-        other: "%{count} seconds"
+        one: "1 segundo"
+        other: "%{count} segundos"
       less_than_x_minutes:
-        one: "less than a minute"
-        other: "less than %{count} minutes"
+        one: "menos de un minuto"
+        other: "menos de %{count} minutos"
       x_minutes:
-        one: "1 minute"
-        other: "%{count} minutes"
+        one: "1 minuto"
+        other: "%{count} minutos"
       about_x_hours:
-        one: "about 1 hour"
-        other: "about %{count} hours"
+        one: "aproximadamente 1 hora"
+        other: "aproximadamente %{count} horas"
       x_days:
         one: "1 día"
         other: "%{count} días"
@@ -994,7 +994,7 @@ es:
       someone_invited_you: "%{sender} te ha invitado a utilizar la academia %{tenant}. Utiliza el botón que está debajo para configurar tu cuenta y empezar:"
       action_text: "Configurar cuenta"
       welcome_aboard: "Bienvenido/a"
-      if_trouble: "Si estás teniendo problemas con el botón de arriba, copia y pega el enlace situado debajo en tu navegador."
+      if_trouble: "Si estás teniendo problemas con el botón de arriba, copia y pega en el navegador el enlace situado debajo."
       mail_subject: "%{sender} te ha invitado a la acedemia %{tenant}"
       contact_support1: "Contacta cuando lo necesites con nuestro"
       contact_support2: "equipo de soporte técnico"
