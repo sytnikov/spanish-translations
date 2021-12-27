@@ -819,7 +819,7 @@ es:
     questions: Preguntas
     settings: Ajustes
     billing: Facturas
-    revenue: Revenue
+    revenue: Ingresos
     price: Precio #translate
     integration: Integraciones
     integrations: Integraciones
@@ -837,39 +837,39 @@ es:
       recaptcha: "La autorización reCAPTCHA ha fallado. Por favor, prueba de nuevo."
     confirmation:
       welcome: "¡Bienvenido/a a Marble! Se ha confirmado tu email. Por favor, inicia sesión para continuar."
-      tenant_doesnt_exist: "Lo sentimos. El arrendatario no existe"
+      tenant_doesnt_exist: "Lo sentimos. El inquilino no existe"
   certificate_mailer: #translate
     send_certificate:
-      subject: "Congratulations %{user}, you've completed your %{path} course!"
-      preheader: "You've got a new certificate!"
-      congratulations_html: "We want to congratulate you on completing your <strong>%{path}</strong> course in the %{tenant}'s Academy."
-      you_can_view_html: "You can view and download your certificate on the %{href}."
-      view_certificate: "View Certificate"
-      share_html: "Finally, don't forget to <strong>share your achievement</strong> with your network!"
+      subject: "¡Felicidades %{user}, has finalizado tu curso %{path}!"
+      preheader: "Has obtenido un nuevo diploma"
+      congratulations_html: "Queremos felicitarte por haber completado tu curso <strong>%{path}</strong> en la academia %{tenant}"
+      you_can_view_html: "Puede ver y descargar tu diploma en %{href}."
+      view_certificate: "Ver diploma"
+      share_html: "Finalmente, ¡No te olvides de <strong>compartir tu logro</strong> con tu red de contactos!"
   payment_mailer: #translate
     send_payment_confirmation:
-      subject: "%{user}, your payment was confirmed!"
-      preheader: "Your payment was confirmed!"
-      subscription_paid_html: "We've just received your subscription payment for the course <strong>%{path}</strong>, which is still available on %{tenant}'s Academy."
-      track_metrics: "track your learning metrics"
-      you_can_track_html: "You can also %{href} and manage payments and subscriptions on your profile's page."
-      resume_course: "Resume course"
-      course_paid_html: "We've just received your payment for the course <strong>%{path}</strong>, which is already available on %{tenant}'s Academy."
-      start_learning: "Start learning"
+      subject: "%{user}, ¡Tu pago ha sido confirmado!"
+      preheader: "¡Tu pago ha sido confirmado!"
+      subscription_paid_html: "Acabamos de recibir tu pago para la suscripción del curso <strong>%{path}</strong>, disponible en la academia %{tenant}"
+      track_metrics: "sigue las métricas de tu aprendizaje"
+      you_can_track_html: "También puedes %{href} y administrar pagos y suscripciones en la página de tu perfil."
+      resume_course: "Reanudar el curso"
+      course_paid_html: "Acabamos de recibir tu pago para el curso <strong>%{path}</strong>, disponible en la academia %{tenant}'s Academy."
+      start_learning: "Empieza a aprender"
     send_cancellation_confirmation:
-      canceled: "Your subscription was canceled."
-      confirmation_message_html: "This is a confirmation message of your subscription cancellation for the course <strong>%{path}</strong>."
-      you_can_still_html: "You can still %{href1}, %{href2}, and %{href3} on your profile's page."
-      href1_text: "track your learning metrics"
-      href2_text: "view and download your certificates"
-      href3_text: "manage payments and subscriptions"
+      canceled: "Tu suscripción ha sido cancelada."
+      confirmation_message_html: "Este es un mensaje de confirmación de que tu suscripción del curso <strong>%{path}</strong> ha sido cancelada."
+      you_can_still_html: "Todavía puedes %{href1}, %{href2}, and %{href3} en tu página de perfil."
+      href1_text: "sigue tus métricas de aprendizaje"
+      href2_text: "mira y descarga tus diplomas"
+      href3_text: "gestiona pagos y suscripciones"
   plan_mailer: #translate
     reminder_3_days:
-      subject: "Your trial expires in 3 days"
+      subject: "Tu prueba vence en tres días"
     reminder_last_day:
-      subject: "%{user}, we have a plan for you!"
-    hope_you_liked: "We hope you liked your experience with Marble."
-    hope_you_are_enjoying: "We hope you are enjoying your experience with us!"
+      subject: "¡ %{user}, tenemos un plan para ti!"
+    hope_you_liked: "Esperamos que te haya gustadio la experience con Marble."
+    hope_you_are_enjoying: "¡Esperamos que estés disfrutando la experience con nosotros!"
     with_marble_html: "With <strong>Marble</strong>, in a matter of minutes, you can build stylish courses packaged in your white-labeled themed academy. You can use it for marketing, customer training, onboarding, and any other educational purposes."
     choose_plan_in_3_html: "As you are now using a trial version of the academy, you will need to <strong>choose a plan in 3 days</strong> to continue."
     choose_plan: "Choose a plan"
@@ -900,13 +900,13 @@ es:
       subject: "Welcome to Marble!"
   certificate_templates: #translate
     validations:
-      limit_mb: "is larger than 5MB"
-      limit_px: "is larger than 1200 x 600 pixels"
+      limit_mb: "es más grande que 5MB"
+      limit_px: "es más grande que 1200 x 600 pixels"
   themes: #translate
     validations:
-      limit_mb: "is larger than 5MB"
-      limit_px1: "is larger than 2000 x 700 pixels"
-      limit_px2: "is larger than 3000 x 1000 pixels"
+      limit_mb: "es más grande que 5MB"
+      limit_px1: "es más grande que 2000 x 700 pixels"
+      limit_px2: "es más grande que 3000 x 1000 píxeles"
   payment: #translate
     currencies:
       usd: "Dólar americano (USD)"
