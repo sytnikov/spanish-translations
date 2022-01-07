@@ -316,7 +316,7 @@ es:
         destroyed: "El tema se ha eliminado satisfactoriamente."
     certificates: #translate
       create:
-        created: "El certificado se ha creado."
+        created: "El diploma se ha creado."
         error: "Ha habido un error al crear el diploma."
       view_pdf: #translate
         title: "El diploma de finalización"
@@ -721,7 +721,7 @@ es:
         title: Inscribirse en %{tenant}
     sessions:
       new:
-        title: Registrarse en %{tenant}
+        title: Ingresar en %{tenant}
     validations:
       limit_mb: "es más grande que 5MB" #translate
   welcome:
@@ -739,7 +739,7 @@ es:
       continue: Continuar
       label: Introduce la URL de tu academia
       placeholder: tu-equipo-url
-      title: Regístrate en tu academia
+      title: Ingresa en tu academia
     create: "¡Bienvenido/a a tu nuevo espacio! por favor, inicia sesión para empezar a utilizarlo." #translate
     find_team: #translate
       not_found: "Academia no encontrada."
@@ -760,7 +760,7 @@ es:
     search: Buscar
     save_changes: Guardar cambios
     sign_in: Registrarse
-    sign_up: Inscribirse
+    sign_up: Ingresar
     sign_out: Desconectar
     sure: ¿Estas seguro/a?
     active: Activo
