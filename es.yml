@@ -423,7 +423,7 @@ es:
     show:
       link: Visitar enlace
     myitem_show: #translate
-      needs_sign_in: "Necesitas registrarte o inscribirte antes de continuar."
+      needs_sign_in: "Necesitas ingresar o inscribirte antes de continuar."
       not_enrolled: "Aún no está inscrito en esta trayectoria."
     create_advanced: #translate
       updated: "La lección ha sido actualizada satisfactoriamente."
@@ -692,7 +692,7 @@ es:
       edit:
         consent_text_html: Al continuar, estarás de acuerdo con nuestros %{terms}.
         submit_button: Guardar mi contraseña
-        subtitle_html: Vas a usar tu dirección de correo electrónico (<strong>%{email}</strong>) y una contraseña para registrate en tu academia de Marble.
+        subtitle_html: Vas a usar tu dirección de correo electrónico (<strong>%{email}</strong>) y una contraseña para registrarte en tu academia de Marble.
         title: Unirse a %{tenant}
     mailer:
       invitation_instructions:
@@ -710,10 +710,10 @@ es:
     passwords:
       edit:
         submit_button: Cambiar mi contraseña
-        subtitle_html: Entroduce tu nueva contraseña de tu cuenta de Marble para registrarte en <strong>%{tenant}</strong>.
+        subtitle_html: Introduce tu nueva contraseña de tu cuenta de Marble para ingresar en <strong>%{tenant}</strong>.
       new:
         reset_link: Obtener un Enlace de Reinicio
-        subtitle_html: Para reiniciar tu contraseña, introduce la dirección de correo que utilizas para registrarte <strong>%{tenant}</strong>.
+        subtitle_html: Para reiniciar tu contraseña, introduce la dirección de correo que utilizas para ingresar <strong>%{tenant}</strong>.
     registrations:
       new:
         terms_button: Términos de servicio
@@ -825,7 +825,7 @@ es:
     integrations: Integraciones
     currency: Moneda
     sso: "Inicio único de sesión" #translate
-    certificate_template: "Plantilla de certificado" #translate
+    certificate_template: "Plantilla de diploma" #translate
     hi: "Hola" #translate
     all_rights_reserved: "Reservados todos los derechos" #translate
     thanks: "Gracias" #translate
@@ -868,7 +868,7 @@ es:
       subject: "Tu periodo de prueba vence en tres días"
     reminder_last_day:
       subject: "¡ %{user}, tenemos un plan para ti!"
-    hope_you_liked: "Esperamos que te haya gustadio la experience con Marble."
+    hope_you_liked: "Esperamos que te haya gustado la experience con Marble."
     hope_you_are_enjoying: "¡Esperamos que estés disfrutando la experience con nosotros!"
     with_marble_html: "Con <strong>Marble</strong>, en pocos minutos, puedes crear elegantes cursos en tu academia con tu propia marca personalizada. Puedes utilizarlos para marketing, formación de clientes, formación de bienvenida, y cualquier otro propósito educativo."
     choose_plan_in_3_html: "Al estar utilizando una versión de prueba de la academia, necesitarás <strong>elegir un plan en 3 días</strong> para continuar."
